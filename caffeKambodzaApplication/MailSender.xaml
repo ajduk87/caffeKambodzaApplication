@@ -1,0 +1,111 @@
+﻿<UserControl x:Class="caffeKambodzaApplication.MailSender"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:caffeKambodzaApplication"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="1400">
+
+    <UserControl.Resources>
+        <ImageSource x:Key="AddFilterImage">Resources\AdvFilterImage.ico</ImageSource>
+        <ImageSource x:Key="RemoveFilterImage">Resources\DeleteFilter.ico</ImageSource>
+
+
+        <Color x:Key="Color1">Black</Color>
+        <Color x:Key="Color2">White</Color>
+        <Color x:Key="Color3">Gray</Color>
+        <Color x:Key="Color4">LightGray</Color>
+        <Color x:Key="Color5">Green</Color>
+        <Color x:Key="Color6">LightGreen</Color>
+
+        <LinearGradientBrush x:Key="Gradient3" StartPoint="0,0" EndPoint="1,0">
+            <GradientStop Color="{DynamicResource Color4}" Offset="0.1"/>
+            <GradientStop Color="{DynamicResource Color2}" Offset="0.2"/>
+            <GradientStop Color="{DynamicResource Color4}" Offset="0.3"/>
+            <GradientStop Color="{DynamicResource Color2}" Offset="0.4"/>
+            <GradientStop Color="{DynamicResource Color4}" Offset="0.5"/>
+            <GradientStop Color="{DynamicResource Color2}" Offset="0.6"/>
+            <GradientStop Color="{DynamicResource Color4}" Offset="0.7"/>
+            <GradientStop Color="{DynamicResource Color2}" Offset="0.8"/>
+            <GradientStop Color="{DynamicResource Color4}" Offset="0.9"/>
+            <GradientStop Color="{DynamicResource Color2}" Offset="1"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="Gradient4" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="Gray" Offset="0.0"/>
+            <GradientStop Color="White" Offset="0.1"/>
+            <GradientStop Color="LightGray" Offset="0.2"/>
+            <GradientStop Color="Gray" Offset="0.3"/>
+            <GradientStop Color="White" Offset="0.4"/>
+            <GradientStop Color="LightGray" Offset="0.5"/>
+            <GradientStop Color="Gray" Offset="0.6"/>
+            <GradientStop Color="White" Offset="0.7"/>
+            <GradientStop Color="LightGray" Offset="0.8"/>
+            <GradientStop Color="Gray" Offset="0.9"/>
+            <GradientStop Color="White" Offset="1"/>
+        </LinearGradientBrush>
+    </UserControl.Resources>
+
+    <Grid Name="gridTab1" Background="{StaticResource Gradient4}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="400"/>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="               Izaberite fajl koji zelite da posaljete na mail:" 
+                       VerticalAlignment="Center"
+                       Grid.Column="0"/>
+            <Button Name="btnChooseFileForMail" 
+                    Content="..." 
+                    Click="btnChooseFileForMail_Click" 
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Width="25"
+                    Grid.Column="1"/>
+            <TextBox Name="tfPathForMailSending" Grid.Column="2"/>
+        </Grid>
+
+        <Grid Grid.Row="3">
+          
+            <Button Name="btnSendMail" 
+                    Content="Posaljite mail" 
+                    Click="btnSendMail_Click"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Width="400"
+                    Grid.Column="1"/>
+          
+        </Grid>
+
+
+    </Grid>
+</UserControl>

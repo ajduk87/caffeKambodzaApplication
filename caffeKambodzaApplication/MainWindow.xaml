@@ -1,0 +1,946 @@
+﻿<Window x:Class="caffeKambodzaApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Foreground="Red"
+        Background="Snow"
+        SizeChanged="SizeChanged_MainWindow"
+        Closed="Closed_Window"
+		xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:caffeKambodzaApplication"
+        
+        Title="caffe KAMBODŽA" Height="700" Width="1450">
+    <Grid>
+        <Grid.Resources>
+
+            <Color x:Key="Color1">Black</Color>
+            <Color x:Key="Color2">White</Color>
+            <Color x:Key="Color3">Gray</Color>
+            <Color x:Key="Color4">LightGray</Color>
+            <Color x:Key="Color5">Green</Color>
+            <Color x:Key="Color6">LightGreen</Color>
+
+
+            <SolidColorBrush x:Key="Brush1" Color="{DynamicResource Color1}"/>
+            <SolidColorBrush x:Key="Brush2" Color="{DynamicResource Color2}"/>
+
+            <LinearGradientBrush x:Key="Gradient1" StartPoint="0,0" EndPoint="1,0">
+                <GradientStop Color="{DynamicResource Color1}" Offset="0.1"/>
+                <GradientStop Color="{DynamicResource Color2}" Offset="0.2"/>
+                <GradientStop Color="{DynamicResource Color3}" Offset="0.3"/>
+                <GradientStop Color="{DynamicResource Color1}" Offset="0.4"/>
+                <GradientStop Color="{DynamicResource Color2}" Offset="0.5"/>
+                <GradientStop Color="{DynamicResource Color3}" Offset="0.6"/>
+                <GradientStop Color="{DynamicResource Color1}" Offset="0.7"/>
+                <GradientStop Color="{DynamicResource Color2}" Offset="0.8"/>
+                <GradientStop Color="{DynamicResource Color3}" Offset="0.9"/>
+                <GradientStop Color="{DynamicResource Color1}" Offset="1"/>
+            </LinearGradientBrush>
+
+            <LinearGradientBrush x:Key="Gradient2" StartPoint="0,0" EndPoint="1,0">
+                <GradientStop Color="{DynamicResource Color6}" Offset="0.2"/>
+                <GradientStop Color="{DynamicResource Color2}" Offset="0.3"/>
+                <GradientStop Color="{DynamicResource Color6}" Offset="0.5"/>
+                <GradientStop Color="{DynamicResource Color2}" Offset="0.6"/>
+
+                <GradientStop Color="{DynamicResource Color6}" Offset="0.8"/>
+                <GradientStop Color="{DynamicResource Color2}" Offset="0.9"/>
+                <GradientStop Color="{DynamicResource Color6}" Offset="1"/>
+            </LinearGradientBrush>
+
+            <LinearGradientBrush x:Key="Gradient3" StartPoint="0,0" EndPoint="1,0">
+                <GradientStop Color="{DynamicResource Color4}" Offset="0.1"/>
+                <GradientStop Color="{DynamicResource Color2}" Offset="0.2"/>
+                <GradientStop Color="{DynamicResource Color4}" Offset="0.3"/>
+                <GradientStop Color="{DynamicResource Color2}" Offset="0.4"/>
+                <GradientStop Color="{DynamicResource Color4}" Offset="0.5"/>
+                <GradientStop Color="{DynamicResource Color2}" Offset="0.6"/>
+                <GradientStop Color="{DynamicResource Color4}" Offset="0.7"/>
+                <GradientStop Color="{DynamicResource Color2}" Offset="0.8"/>
+                <GradientStop Color="{DynamicResource Color4}" Offset="0.9"/>
+                <GradientStop Color="{DynamicResource Color2}" Offset="1"/>
+            </LinearGradientBrush>
+
+            <LinearGradientBrush x:Key="Gradient4" StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="Gray" Offset="0.0"/>
+                <GradientStop Color="White" Offset="0.1"/>
+                <GradientStop Color="LightGray" Offset="0.2"/>
+                <GradientStop Color="Gray" Offset="0.3"/>
+                <GradientStop Color="White" Offset="0.4"/>
+                <GradientStop Color="LightGray" Offset="0.5"/>
+                <GradientStop Color="Gray" Offset="0.6"/>
+                <GradientStop Color="White" Offset="0.7"/>
+                <GradientStop Color="LightGray" Offset="0.8"/>
+                <GradientStop Color="Gray" Offset="0.9"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+
+        </Grid.Resources>
+        <TabControl 
+            Name="tabcontrol"
+		    Height="Auto"
+		    Width="Auto"
+          
+		    VerticalAlignment="Stretch"
+            HorizontalAlignment="Stretch">
+
+            <TabItem Name="tab_first" Header="Kreiranje knjige šanka">
+                <Grid Name="gridTab1" Background="{StaticResource Gradient4}">
+
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="60"/>
+                            <RowDefinition Height="35"/>
+                            <RowDefinition Height="35"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="35"/>
+							<RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                        </Grid.RowDefinitions>
+
+
+                        <Grid Name="dataItemLabels" Grid.Row = "1" Grid.ColumnSpan="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1.4*" />
+                                <ColumnDefinition Width="5*" />
+                                <ColumnDefinition Width="10" MaxWidth="10" />
+                                <ColumnDefinition Width="150" MaxWidth="150"/>
+                                <ColumnDefinition Width="10" MaxWidth="10" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="10" MaxWidth="10" />
+                                <ColumnDefinition Width="1.4*" />
+                                <ColumnDefinition Width="10" MaxWidth="10"  />
+                                <ColumnDefinition Width="3*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="1.5*" />
+                                <ColumnDefinition Width="0.5*" />
+                            </Grid.ColumnDefinitions>
+
+
+                            <TextBlock Name="tblNameProduct"
+                                   Text="Naziv proizvoda:  "
+                                   Width="Auto"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Bottom"
+                                   FontWeight="ExtraBlack"
+                                   FontSize="15"
+                                   Grid.Column="1"/>
+                            <TextBlock Name="tblPrice"
+                                   Text="Jedinična cena proizvoda :  "
+                                   Width="Auto"
+                                   FontSize="13"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Bottom"
+                                   FontWeight="ExtraBlack"
+                                   Grid.Column="3"/>
+
+                            <TextBlock Name="tblAmount"
+                                   Text="Količina (broj komada):  "
+                                   TextWrapping="Wrap"
+                                     
+                                   FontSize="15"
+                                   HorizontalAlignment="Left"
+                                   VerticalAlignment="Center"
+                                   FontWeight="ExtraBlack"
+                                   Grid.Column="5"/>
+
+
+                            <TextBlock Name="tblItemValue"
+                                   Text="Vrednost stavke:  "
+                                   FontSize="15"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Bottom"
+                                   FontWeight="ExtraBlack"
+                                   Grid.Column="7"/>
+
+                            <TextBlock Name="tblShift"
+                                   Text="Smena :  "
+                                   Width="Auto"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Bottom"
+                                   FontWeight="ExtraBlack"
+                                   FontSize="15"
+                                   Grid.Column="11"/>
+
+
+                        </Grid>
+
+                        <Grid Name="dataItem" Grid.Row = "2" Grid.ColumnSpan="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1.4*" />
+                                <ColumnDefinition Width="5*" />
+                                <ColumnDefinition Width="10"/>
+                                <ColumnDefinition Width="150" MaxWidth="150" />
+                                <ColumnDefinition Width="10" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="10"/>
+                                <ColumnDefinition Width="1.4*" />
+                                <ColumnDefinition Width="10" />
+                                <ColumnDefinition Width="3*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="1.5*" />
+                                <ColumnDefinition Width="0.5*" />
+                            </Grid.ColumnDefinitions>
+
+
+
+                            <ComboBox  Name="cmbNameProductTab1"
+                                   ItemsSource ="{Binding Path=Products}"
+                                   SelectionChanged="SelectionChanged_cmbNameProductTab1"
+                                   Cursor="Hand"
+                                   Height="35"
+                                   MaxHeight="35"
+                                   FontSize="20"
+                                   FontWeight="Bold"
+                                   Grid.Column="1"/>
+
+
+
+                            <TextBox Name="tblPriceTab1"
+                                   Text=""
+                                   Width="150"
+                                   Height="35"
+                                   MaxHeight="35"
+                                   IsReadOnly="True"
+                                   FontSize="20"
+                                   FontWeight="Bold"
+                                   Background="LightGray"
+                                   HorizontalAlignment="Left"
+                                   VerticalAlignment="Center"
+                                   Grid.Column="3"/>
+
+
+
+                            <TextBox   Name="tfAmount"
+                                   MouseEnter="MouseEnter_tfAmount"
+                                   MouseLeave="MouseLeave_tfAmount"
+                                   TextChanged="TextChanged_tfAmount"
+								   KeyDown="tfAmount_KeyDown"
+                                   HorizontalAlignment="Stretch"
+                                   FontFamily="Times New Roman"
+                                   Background = "Black"
+                                   Foreground="Snow"
+                                   Height="35"
+                                   MaxHeight="35"
+                                   FontSize="20"
+                                   FontWeight="Bold"
+                                   Grid.Column="5"/>
+
+                            <TextBox Name="tblItemValueNumber"
+                                   Text=""
+                                   Width="Auto"
+                                   Height="35"
+                                   IsReadOnly="True"
+                                   Background="LightGray"
+                                   FontSize="20"
+                                   FontWeight="Bold"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Center"
+                                   Grid.Column="7"/>
+
+                            <Button    Name="btnaddItem"
+                                   Content="dodaj stavku"
+                                   VerticalAlignment="Center"
+                                   Height="25"
+                                   MaxHeight="25"
+                                   Click="Click_btnaddItem"
+                                   MouseEnter="MouseEnter_btnaddItem"
+                                   MouseLeave="MouseLeave_btnaddItem"
+                                   Grid.Column="9"/>
+
+                            <ComboBox  Name="cmbShift"
+                                       HorizontalAlignment="Left"
+                                       Grid.Column="11">
+                                <ComboBoxItem>1</ComboBoxItem>
+                                <ComboBoxItem>2</ComboBoxItem>
+                                <ComboBoxItem>3</ComboBoxItem>
+                                <ComboBoxItem>4</ComboBoxItem>
+                            </ComboBox>
+
+
+                        </Grid>
+
+                        <Grid Name="griddTotal" Grid.Row = "3" Grid.ColumnSpan="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="20" MaxWidth="20" />
+                                <ColumnDefinition Width="40*" />
+                                <ColumnDefinition Width="5*" />
+                                <ColumnDefinition Width="5*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Name="tblRemarkTab1"
+                                   Text=""
+                                   HorizontalAlignment="Left"
+                                   VerticalAlignment="Center"
+                                   FontSize="20"
+                                   FontWeight="Bold"
+                                   Foreground="{StaticResource Brush1}"
+                                   Grid.Column="1"/>
+
+                            <TextBlock Name="tblTotal"
+                                  Text="Total : "
+                                  FontWeight="ExtraBlack"
+                                  HorizontalAlignment="Right"
+                                  VerticalAlignment="Center"
+                                  FontSize="20"
+                                  Grid.Column="2"/>
+
+                            <TextBlock  Name="tblTotalValue" 
+                                    FontWeight="ExtraBlack"
+                                    HorizontalAlignment="Left"
+                                    VerticalAlignment="Center"
+                                    FontSize="20"
+                                    Grid.Column="3"/>
+
+                        </Grid>
+
+                        <Grid Name="griddataGrid" Grid.Row = "4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="100*" />
+                                <ColumnDefinition Width="3*" />
+                            </Grid.ColumnDefinitions>
+
+                            <DataGrid
+								   PreviewKeyDown="dataGrid1_PreviewKeyDown"
+								   KeyDown="dataGrid1_KeyDown"
+                                   ItemsSource="{Binding _items}" 
+                                   HorizontalAlignment="Stretch"  
+                                   Name="dataGrid1" 
+								   CanUserDeleteRows="False"
+                                   VerticalAlignment="Stretch" 
+                                   Width="Auto" 
+                                   AutoGenerateColumns="False" 
+                                   CanUserReorderColumns="False" 
+                                   CanUserAddRows="False"  
+                                   RowBackground="Snow" 
+                                   AlternatingRowBackground="{StaticResource Gradient3 }" 
+                                   VerticalContentAlignment="Stretch" 
+                                   HorizontalContentAlignment="Stretch"
+                                   Grid.Column="1">
+
+                                <DataGrid.ColumnHeaderStyle>
+                                    <Style TargetType="{x:Type DataGridColumnHeader}">
+                                        <Setter Property="ContentTemplate">
+                                            <Setter.Value>
+                                                <DataTemplate>
+                                                    <TextBlock TextWrapping="Wrap" Text="{Binding}"></TextBlock>
+                                                </DataTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+
+                                </DataGrid.ColumnHeaderStyle>
+
+                                <DataGrid.Columns>
+
+                                    <DataGridTextColumn Header="Šifra proizvoda" Width="*" IsReadOnly="True" Binding="{Binding CodeProduct}"/>
+                                    <DataGridTextColumn Header="Vrsta proizvoda" Width="*" IsReadOnly="True" Binding="{Binding KindOfProduct}"/>
+                                    <DataGridTextColumn Header="Jedinična cena" Width="*" IsReadOnly="True" Binding="{Binding Price}"/>
+                                    <DataGridTextColumn Header="Količina" Width="*" IsReadOnly="True" Binding="{Binding Amount}"/>
+                                    <DataGridTextColumn Header="Vrednost stavke" Width="*" IsReadOnly="True" Binding="{Binding CostItem}"/>
+
+                                </DataGrid.Columns>
+
+                            </DataGrid>
+
+                        </Grid>
+
+                        <Grid   Name="gridProgressBar" 
+                            Grid.Row="5" Grid.ColumnSpan="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="20" MaxWidth="20"/>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="70" />
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Name="tblRemarkTabDown1"
+                                   Text=""
+                                   HorizontalAlignment="Left"
+                                   VerticalAlignment="Center"
+                                   FontSize="16"
+                                   FontWeight="Bold"
+                                   Foreground="{StaticResource Brush1}"
+                                   Grid.Column="1"/>
+
+                            <TextBox Name="tfWhyItemDeleted" 
+                                     VerticalContentAlignment="Center"
+                                     MouseEnter="tfWhyItemDeleted_MouseEnter"
+                                     MouseLeave="tfWhyItemDeleted_MouseLeave"
+                                     Text="Unesite razlog uklanjanja stavke"
+                                     Foreground="OrangeRed"
+                                     Grid.Column="3"/>
+
+                        </Grid>
+
+                        <Grid   Name="gridRemoveItem"
+                            Grid.Row="6" Grid.ColumnSpan="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.5*" />
+                                <ColumnDefinition Width="1.6*" />
+                                <ColumnDefinition Width="0.2*" />
+                                <ColumnDefinition Width="2.5*" />
+                                <ColumnDefinition Width="0.2*"/>
+                                <ColumnDefinition Width="2*" />
+                                <ColumnDefinition Width="0.1*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="0.2*"/>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="0.2*" />
+                                <ColumnDefinition Width="1.4*" />
+                                <ColumnDefinition Width="2*" />
+                                <ColumnDefinition Width="0.2*" />
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition Width="70" MaxWidth="70"/>
+                            </Grid.ColumnDefinitions>
+
+
+                            <TextBlock Name="tblDate"
+                                   Text="Unesite datum : "
+                                   Width="Auto"
+                                   HorizontalAlignment="Right"
+                                   VerticalAlignment="Center"
+                                   FontWeight="ExtraBlack"
+                                   Grid.Column="1"/>
+
+                            <DatePicker Name="datepicker1"
+										SelectedDate="{x:Static sys:DateTime.Now}"
+                                        FontSize="15"
+                                    SelectedDateChanged="SelectedDateChanged_datapicker1"
+                                    Grid.Column="3" >
+                                <DatePicker.Resources>
+                                    <Style TargetType="DatePickerTextBox">
+                                        <Setter Property="IsReadOnly" Value="True"/>
+                                    </Style>
+                                </DatePicker.Resources>
+                            </DatePicker>
+
+
+                            <Button    Name="btncreateReport"
+                                   Content="kreiraj izveštaj"
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Stretch"
+                                   Click="Click_btncreateReport"
+                                   IsEnabled="False"
+                                   Grid.Column="5"/>
+                            <TextBlock Name="tblisCreatingReportTime"
+                                   Text="Kreiranje izveštaja nije u toku"
+                                   FontSize="14"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Center"
+                                   Grid.ColumnSpan="3"
+                                   Grid.Column="7"/>
+                            <ProgressBar Name="pbar"
+                                     Height="15"
+                                     Minimum="0"
+                                     Maximum="100"
+                                     Value=" 0"
+                                     ValueChanged="ValueChanged_pbar"
+                                     Grid.Column="11"
+                                     Grid.ColumnSpan="2"/>
+
+                            <Button    Name="btnremoveItem"
+                                   Content="ukloni stavku"
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Stretch"
+                                   Click="Click_btnremoveItemTab1"
+                                   Grid.Column="14"/>
+
+
+                        </Grid>
+						
+						
+						
+						   <Grid   Name="gridNotWorkingDay"
+                            Grid.Row="8" Grid.ColumnSpan="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.5*" />
+                                <ColumnDefinition Width="1.6*" />
+                                <ColumnDefinition Width="0.2*" />
+                                <ColumnDefinition Width="2.5*" />
+                                <ColumnDefinition Width="0.2*"/>
+                                <ColumnDefinition Width="2*" />
+                                <ColumnDefinition Width="0.1*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="0.2*"/>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="0.2*" />
+                                <ColumnDefinition Width="1.4*" />
+                                <ColumnDefinition Width="2*" />
+                                <ColumnDefinition Width="0.2*" />
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition Width="70" MaxWidth="70"/>
+                            </Grid.ColumnDefinitions>
+
+
+
+                            <CheckBox   Name="chbNotWorkingDay"
+                                        Checked="chbNotWorkingDay_Checked"
+                                        Unchecked="chbNotWorkingDay_Unchecked"
+                                        HorizontalAlignment="Left"
+                                        VerticalAlignment="Center"
+										FontSize = "20"
+                                        Content="neradan dan"
+                                        Grid.Column="3"/>
+
+
+                           
+
+
+                        </Grid>
+						
+						
+                    </Grid>
+
+                </Grid>
+
+            </TabItem>
+
+
+
+            <TabItem Name="tab_second" Header="Unesi/Ukloni novu stavku">
+                <TabControl Name="innerTabControl">
+                    <TabItem Name="productCafe" Header="Unesi/Ukloni novi proizvod kafića">
+                        <Grid Name="gridTab2" Background="{StaticResource Gradient4}">
+
+                            <Grid >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="40"/>
+                                    <RowDefinition Height="50"/>
+                                    <RowDefinition Height="50"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="40"/>
+                                    <RowDefinition Height="40"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="50"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="25"/>
+                                    <RowDefinition Height="40"/>
+                                    <RowDefinition Height="40"/>
+                                    <RowDefinition Height="40"/>
+                                </Grid.RowDefinitions>
+                                <Grid Name="captionUnesi" Grid.Row = "1">
+                                    <Label Name="lblcaptionUnesi" 
+                               Content="Unesi novi proizvod"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"
+                               FontWeight="Bold"
+                               FontSize="20"/>
+                                </Grid>
+                                <Grid Name="newitem" Grid.Row = "2">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="2*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="3*" />
+                                        <ColumnDefinition Width="20" />
+                                        <ColumnDefinition Width="1.5*" />
+                                        <ColumnDefinition Width="20" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="20" />
+                                    </Grid.ColumnDefinitions>
+                                    <Label Name="lblCodeProduct"
+                               Content="Šifra proizvoda :   "
+                               HorizontalAlignment="Right"
+                               VerticalAlignment="Center"
+                               FontWeight="ExtraBlack"
+                               Grid.Column="0"/>
+                                    <TextBox Name="tfCodeProduct"
+                                TextChanged="tfCodeProduct_TextChanged"  
+                                 MouseLeave="tfCodeProduct_MouseLeave"
+                                 Height="25"
+                                 FontSize="14"
+                                 Grid.Column="1"/>
+                                    <Label Name="lblNameProduct"
+                               Content="Naziv proizvoda :   "
+                               HorizontalAlignment="Right"
+                               VerticalAlignment="Center"
+                               FontWeight="ExtraBlack"
+                               Grid.Column="2"/>
+                                    <TextBox Name="tfNameProduct" 
+                                 MouseEnter="tfNameProduct_MouseEnter"
+                                 MouseLeave="tfNameProduct_MouseLeave"
+                                 FontSize="14"
+                                 Height="25"
+                                 Grid.Column="3"/>
+								 
+								 
+								  <Label Name="lblWayOfDisplayBookBar"
+                               Content="Način prikaza u knjizi :"
+                               HorizontalAlignment="Right"
+                               VerticalAlignment="Center"
+                               FontWeight="ExtraBlack"
+                               Grid.Column="5"/>
+
+                                    <ComboBox Name="cmbWayDisplayBookBar" 
+                                     FontSize="20"
+                                     Cursor="Hand"
+                                     Height="30"
+                                     Grid.Column="7">
+                                        <ComboBoxItem> KOM </ComboBoxItem>
+                                        <ComboBoxItem> LIT </ComboBoxItem>
+                                        <ComboBoxItem> KG </ComboBoxItem>
+                                    </ComboBox>
+								 
+								 
+                                </Grid>
+
+                                <Grid Name="newItem2" Grid.Row="3">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="1.4*" />
+                                        <ColumnDefinition Width="0.5*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="3*" />
+                                        <ColumnDefinition Width="2*" />
+                                    </Grid.ColumnDefinitions>
+
+
+                                    <Label Name="lblPrice"
+                                   Content="Jedinična cena :"
+                                   HorizontalAlignment="Right"
+                                   VerticalAlignment="Center"
+                                   FontWeight="ExtraBlack"
+                                   Grid.Column="0"/>
+
+                                    <TextBox Name="tfPrice" 
+                                     MouseEnter="tfPrice_MouseEnter"
+                                     MouseLeave="tfPrice_MouseLeave"
+                                     FontSize="14"
+                                     Height="25"
+                                     Grid.Column="1"/>
+
+                                    <TextBlock Name="tbkCurrency"
+                                       Text="din"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Left"
+                                       FontWeight="ExtraBlack"
+                                       Grid.Column="2"/>
+
+
+                                    <Label Name="lblMeasure"
+                                   Content="Jedinična mera :"
+                                   HorizontalAlignment="Right"
+                                   VerticalAlignment="Center"
+                                   FontWeight="ExtraBlack"
+                                   Grid.Column="3"/>
+
+                                    <ComboBox Name="cmbMeasure" 
+                                      MouseEnter="cmbMeasure_MouseEnter"
+                                      MouseLeave="cmbMeasure_MouseLeave"
+                                     FontSize="20"
+                                     Cursor="Hand"
+                                     Height="30"
+                                     Grid.Column="4"/>
+                                </Grid>
+
+                                <Grid Name="dugmenewitem" Grid.Row="4">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="3*" />
+                                        <ColumnDefinition Width="0.1*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="0.05*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Button Name="btnNewItem"
+                                Content="Unesi novi proizvod"
+                                Click="Click_btnNewItem"
+                                VerticalAlignment="Center"
+                                Grid.Column="3"
+                                />
+                                </Grid>
+                                <Grid Name="dugmedeletetextbox" Grid.Row="5">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="3*" />
+                                        <ColumnDefinition Width="0.1*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="0.05*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Button Name="btnDeleteTextbox"
+                                Content="Obriši polja unetog proizvoda"
+                                Click="btnDeleteTextbox_Click"
+                                VerticalAlignment="Center"
+                                Grid.Column="3"
+                                />
+                                </Grid>
+                                <Grid Name="captionUkloni" Grid.Row = "7">
+                                    <Label Name="lblcaptionUkloni" 
+                               Content="Ukloni izabrani proizvod"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"
+                               FontWeight="Bold"
+                               FontSize="20"/>
+                                </Grid>
+                                <Grid Name="removeitem" Grid.Row = "8">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="3*" />
+                                        <ColumnDefinition Width="0.1*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="0.05*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Name="lblNameProductr"
+                               Content="Vrsta izabranog proizvoda :"
+                               HorizontalAlignment="Right"
+                               VerticalAlignment="Center"
+                               FontWeight="ExtraBlack"
+                               Grid.Column="0"/>
+                                    <ComboBox Name="cmbNameProductr"
+                                  ItemsSource ="{Binding Path=Products}"
+                                  SelectionChanged="cmbNameProductr_SelectionChanged"
+                                   FontSize="20"
+                                  Height="30"
+                                  Cursor="Hand"
+                                  Grid.Column="1"/>
+
+                                    <Button Name="btnRemoveItem"
+                                        Content="Ukloni izabrani proizvod"
+                                        Click="btnRemoveItem_Click"
+                                        Height="25"
+                                        Grid.Column="3"/>
+
+                                </Grid>
+
+                                <Grid Grid.Row="9">
+                                     <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="0.9*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="0.2*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+									
+									
+									  <Grid Grid.Row="0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="    Do kad je cena važila : "
+                                                VerticalAlignment="Center"
+                                          HorizontalAlignment="Right"
+                                               Grid.Column="0"/>
+                                        <DatePicker Name="datepickerChangePrice"
+                                        FontSize="12"
+                                        SelectedDateChanged="datepickerChangePrice_SelectedDateChanged"
+                                    Grid.Column="3" >
+                                            <DatePicker.Resources>
+                                                <Style TargetType="DatePickerTextBox">
+                                                    <Setter Property="IsReadOnly" Value="True"/>
+                                                </Style>
+                                            </DatePicker.Resources>
+                                        </DatePicker>
+                                    </Grid>
+				
+                                    <TextBlock Text="Nova cena izabranog proizvoda je : "
+                                                VerticalAlignment="Center"
+                                          HorizontalAlignment="Left"
+                                               Grid.Column="1"/>
+                                    <TextBox Name="tfNewPrice"
+                                             Grid.Column="2"/>
+                                    <TextBlock Text="din "
+                                               Width="90"
+                                                VerticalAlignment="Center"
+                                          HorizontalAlignment="Left"
+                                               Grid.Column="3"/>
+                                    <Button Name="btnChangePrice"
+                                            Height="25"
+                                            Click="btnChangePrice_Click"
+                                            VerticalAlignment="Center"
+                                            HorizontalAlignment="Left"
+                                            Content="Promeni cenu izabranog proizvoda"
+                                            Width="275"
+                                            Grid.Column="4"/>
+                                </Grid>
+
+                                <Grid Name="removeitem2" Grid.Row = "10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="3*" />
+                                        <ColumnDefinition Width="0.1*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="0.05*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Name="lblCodeProductr"
+                               Content="Šifra izabranog proizvoda :"
+                               HorizontalAlignment="Right"
+                               VerticalAlignment="Center"
+                               FontWeight="ExtraBlack"
+                               Grid.Column="0"/>
+                                    <ComboBox Name="cmbNameProductr2" 
+                                          SelectionChanged="cmbNameProductr2_SelectionChanged"
+                                          Height="30"
+                                          Cursor="Hand"
+                                          FontSize="20"
+                                          Grid.Column="1"/>
+                                </Grid>
+
+                                <Grid Name="remark" Grid.Row = "6">
+                                    <TextBlock Name="tbkRemark"
+                                   HorizontalAlignment="Left"
+                                   VerticalAlignment="Center"
+                                   FontWeight="Bold"
+                                   />
+                                </Grid>
+
+                                <Grid  Name="gridNewMeasure" Grid.Row="13">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="3*" />
+                                        <ColumnDefinition Width="0.1*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="0.05*" />
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Name="tblNewMeasure"
+                                   Text="Unesite naziv jedinične mere : "
+                                   HorizontalAlignment="Right"
+                                   VerticalAlignment="Center"
+                                   FontSize="20"
+                                   FontWeight="Bold"
+                                   Grid.Column="0"
+                                  />
+                                    <TextBox Name="tfNewMeasure"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Center"
+                                   KeyDown="tfNewMeasure_KeyDown"
+                                   TextChanged="tfNewMeasure_TextChanged"
+                                   FontSize="20"
+                                   Grid.Column="1"
+                                  />
+
+                                    <Button Name="btnNewMeasure"
+                                Content="Unesi novu jediničnu meru"
+                                Height="25"
+                                Click="btnNewMeasure_Click"
+                                Grid.Column="3"/>
+                                </Grid>
+
+                                <Grid Name="gridDeletetfMeasure" Grid.Row="14">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="2.7*" />
+                                        <ColumnDefinition Width="0.1*" />
+                                        <ColumnDefinition Width="0.2*" />
+                                        <ColumnDefinition Width="0.1*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="0.05*" />
+                                    </Grid.ColumnDefinitions>
+
+
+
+                                    <Button Name="btnDeletetfMeasure"
+                                Content="Obriši polje za meru"
+                                Click="btnDeletetfMeasure_Click"
+                                Height="25"
+                                Grid.Column="5"/>
+                                </Grid>
+
+                                <Grid  Name="gridRemoveMeasure" Grid.Row="15">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="3*" />
+                                        <ColumnDefinition Width="0.1*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="0.05*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <TextBlock Name="tblRemoveMeasure"
+                                   Text=" Jedinična mera : "
+                                   HorizontalAlignment="Right"
+                                   VerticalAlignment="Center"
+                                   FontSize="20"
+                                   FontWeight="Bold"
+                                   Grid.Column="0"
+                                  />
+                                    <ComboBox Name="cmbRemoveMeasure"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Center"
+                                   SelectionChanged="cmbRemoveMeasure_SelectionChanged"
+                                   Height="30"
+                                   FontSize="20"
+                                   Grid.Column="1"
+                                  />
+
+                                    <Button Name="btnRemoveMeasure"
+                                Content="Ukloni izabranu jediničnu meru"
+                                Click="btnRemoveMeasure_Click"
+                                Height="25"
+                                Grid.Column="3"/>
+                                </Grid>
+
+                            </Grid>
+
+
+
+                        </Grid>
+                    </TabItem>
+                    
+                    
+                    
+                    <TabItem Name="productStore" Header="Unesi/Ukloni novu stavku magacina">
+                        <Grid Name="gridStoreProducts" Background="{StaticResource Gradient4}">
+                            <local:StorehouseItemsTab2 x:Name="enterStoreItemsTab2"/>
+                        </Grid>
+                    </TabItem>
+
+                    <TabItem Name="connProductsStore" Header="Pregled/Ažuriranje odnosa proizvod-stavka magacina">
+                        <Grid Name="gridStoreProductsUpdate" >
+                            <local:SelectUpdateConnProdStore x:Name="selectUpdateConnProdStore"/>
+                        </Grid>
+                    </TabItem>
+
+                </TabControl>
+            </TabItem>
+
+         
+
+            <TabItem Name="tab_third" Header="Šank">
+                <Grid>
+                    <local:Storehouse x:Name="storehouse"/>
+                </Grid>
+            </TabItem>
+
+            <TabItem Name="tab_fourth" Header="Rad sa kreiranim izveštajima">
+                <Grid>
+                    <local:WorkingWithCreatedReports x:Name="createdReports"/>
+                </Grid>
+            </TabItem>
+
+            <TabItem Name="tab_fifth" Header="Pregled rada šanka">
+                <Grid>
+                    <local:OverviewStorehouseWork x:Name="overviewStorehouse"/>
+                </Grid>
+            </TabItem>
+
+
+            <TabItem Name="tab_sixth" Header="Istorija menjanja recepata i cena">
+                <Grid>
+                    <local:History x:Name="history"/>
+                </Grid>
+            </TabItem>
+            
+            <TabItem Header="Opcije">
+                <Grid>
+                    <local:ReportOptions x:Name="options"  />
+                </Grid>
+            </TabItem>
+			 <TabItem Header="Slanje na mail">
+                <Grid>
+                    <local:MailSender x:Name="mailsender"  />
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

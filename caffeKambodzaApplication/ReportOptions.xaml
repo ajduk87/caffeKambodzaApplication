@@ -1,0 +1,1136 @@
+﻿<UserControl x:Class="caffeKambodzaApplication.ReportOptions"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="1400">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary 
+                  Source="Resources/OptionsButtonStyleDictionary.xaml">
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid Name="gridOptionsRoot">
+        <Grid.Resources>
+
+            <Color x:Key="Color1">Black</Color>
+            <Color x:Key="Color2">White</Color>
+            <Color x:Key="Color3">Gray</Color>
+            <Color x:Key="Color4">LightGray</Color>
+            <Color x:Key="Color5">Green</Color>
+            <Color x:Key="Color6">LightGreen</Color>
+
+
+            <LinearGradientBrush x:Key="Gradient3" StartPoint="0,0" EndPoint="1,0">
+                <GradientStop Color="{DynamicResource Color4}" Offset="0.1"/>
+                <GradientStop Color="{DynamicResource Color2}" Offset="0.2"/>
+                <GradientStop Color="{DynamicResource Color4}" Offset="0.3"/>
+                <GradientStop Color="{DynamicResource Color2}" Offset="0.4"/>
+                <GradientStop Color="{DynamicResource Color4}" Offset="0.5"/>
+                <GradientStop Color="{DynamicResource Color2}" Offset="0.6"/>
+                <GradientStop Color="{DynamicResource Color4}" Offset="0.7"/>
+                <GradientStop Color="{DynamicResource Color2}" Offset="0.8"/>
+                <GradientStop Color="{DynamicResource Color4}" Offset="0.9"/>
+                <GradientStop Color="{DynamicResource Color2}" Offset="1"/>
+            </LinearGradientBrush>
+
+            <LinearGradientBrush x:Key="Gradient4" StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="Gray" Offset="0.0"/>
+                <GradientStop Color="White" Offset="0.1"/>
+                <GradientStop Color="LightGray" Offset="0.2"/>
+                <GradientStop Color="Gray" Offset="0.3"/>
+                <GradientStop Color="White" Offset="0.4"/>
+                <GradientStop Color="LightGray" Offset="0.5"/>
+                <GradientStop Color="Gray" Offset="0.6"/>
+                <GradientStop Color="White" Offset="0.7"/>
+                <GradientStop Color="LightGray" Offset="0.8"/>
+                <GradientStop Color="Gray" Offset="0.9"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+
+            <Style TargetType="{x:Type TextBlock}">
+                <Setter Property="FontSize"  Value="18"/>
+            </Style>
+            <Style TargetType="{x:Type TextBox}">
+                <Setter Property="FontSize"  Value="18"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+            </Style>
+            <Style TargetType="{x:Type RadioButton}">
+                <Setter Property="FontSize"  Value="18"/>
+            </Style>
+            <Style TargetType="{x:Type CheckBox}">
+                <Setter Property="FontSize"  Value="18"/>
+            </Style>
+            <Style TargetType="{x:Type ComboBox}">
+                <Setter Property="FontSize"  Value="18"/>
+            </Style>
+
+        </Grid.Resources>
+
+        <TabControl Height="700" HorizontalAlignment="Left" Name="tabControl1" VerticalAlignment="Top" Width="1400">
+
+            <TabItem Header="Putanje" Name="tabIPutanje">
+                <Grid Name="gridRoot"  Background="{StaticResource Gradient4}">
+
+
+
+                    <Grid  ShowGridLines="True">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Name="gridCmb" Grid.Column="0" Grid.Row="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15" MaxWidth="15"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <CheckBox Name="cmb" 
+                                      Content="Želim uneti direktorijum kreiranja izveštaja"
+                                      Checked="cmb_Checked"
+                                      Unchecked="cmb_Unchecked"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="2"/>
+                            <CheckBox Name="cmb2" 
+                                      Content="Želim uneti naziv izveštaja"
+                                      Checked="cmb2_Checked"
+                                      Unchecked="cmb2_Unchecked"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="4"/>
+                            <CheckBox Name="cmb3" 
+                                      Content="Želim uneti ekstenziju izveštaja"
+                                      Checked="cm3_Checked"
+                                      Unchecked="cm3_Unchecked"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="6"/>
+                            <CheckBox Name="cmb4" 
+                                      IsEnabled="False"
+                                      Content="Želim uneti putanju backup baze podataka"
+                                      Checked="cm4_Checked"
+                                      Unchecked="cm4_Unchecked"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="8"/>
+                        </Grid>
+                        <Grid Name="gridInitialOptions" Grid.Column="1" Grid.Row="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15" MaxWidth="15"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Name="tblCaption1" 
+                                      Text="Podrazumevani direktorijum kreiranja izveštaja : "
+                                      FontWeight="ExtraBlack"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="1"/>
+                            <TextBlock Name="tblInitialDir" 
+                                      Text="D:\BarBooks"
+                                      FontWeight="ExtraBlack"
+                                      Foreground="Azure"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="2"/>
+                            <TextBlock Name="tblCaption2" 
+                                      Text="Podrazumevani naziv izveštaja : "
+                                      FontWeight="ExtraBlack"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="3"/>
+                            <TextBlock Name="tblInitialFile" 
+                                      Text="Izvestaj_dd/mm/gggg"
+                                      FontWeight="ExtraBlack"
+                                      Foreground="Azure"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="4"/>
+                            <TextBlock Name="tblCaption3" 
+                                      Text="Podrazumevana ekstenzija izveštaja : "
+                                      FontWeight="ExtraBlack"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="5"/>
+                            <TextBlock Name="tblInitialExtension" 
+                                      Text="XLSX"
+                                      FontWeight="ExtraBlack"
+                                      Foreground="Azure"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="6"/>
+                            <TextBlock Name="tblCaption4" 
+                                      Text="Podrazumevana putanja backup baze podataka : "
+                                      FontWeight="ExtraBlack"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="7"/>
+                            <TextBlock Name="tblInitialDatabasePath" 
+                                      Text="D:\caffeKambodzaPodaci\BazaPodataka"
+                                      FontWeight="ExtraBlack"
+                                      Foreground="Azure"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="8"/>
+
+                        </Grid>
+                        <Grid Name="gridTf" Grid.Column="0" Grid.Row="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15" MaxWidth="15"/>
+                                <ColumnDefinition Width="6*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid Name="gridChooseDir"  Grid.Column="1" Grid.Row="1">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock Name="tblCaption5" 
+                                    Text="Unesite direktorijum kreiranja izveštaja :   "
+                                    FontWeight="ExtraBlack"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Left"
+                                    Grid.Column="0"
+                                    />
+
+                                <Button Name="btnChooseDirPath"
+                                        Content="..."
+                                        Width="20"
+                                        Height="20"
+                                        Click="btnChooseDirPath_Click"
+                                        HorizontalAlignment="Left"
+                                        VerticalAlignment="Bottom"
+                                        Grid.Column="1" Margin="0,0,0,4"/>
+                            </Grid>
+
+                            <TextBox Name="tfDir"
+                                       Width="Auto"
+                                       Height="Auto"
+                                       FontWeight="ExtraBlack"
+                                       BorderBrush="Black"
+                                       TextChanged="tfDir_TextChanged"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Stretch"
+                                       Grid.Row="2"
+                                       Grid.Column="1"/>
+
+                            <Button Name="btnSaveDir"
+                                    Content="Zapamti"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"
+                                    Click="btnSaveDir_Click"
+                                    Grid.Row="2"
+                                    Grid.Column="2"/>
+
+                            <TextBlock Name="tblCaption6" 
+                                      Text="Unesite naziv izveštaja : "
+                                      FontWeight="ExtraBlack"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="3"/>
+
+                            <TextBox Name="tfFile"
+                                     Width="Auto"
+                                     BorderBrush="Black"
+                                     VerticalAlignment="Center"
+                                     HorizontalAlignment="Stretch"
+                                     TextChanged="tfFile_TextChanged"
+                                     Grid.Row="4"
+                                     Grid.Column="1"/>
+
+                            <Button Name="btnSaveFile"
+                                    Content="Zapamti"
+                                    Click="btnSaveFile_btnSaveFile"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"
+                                    Grid.Row="4"
+                                    Grid.Column="2"/>
+
+                            <TextBlock Name="tblCaption7" 
+                                      Text="Izaberite ekstenziju izveštaja : "
+                                      FontWeight="ExtraBlack"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="5"/>
+
+                            <ComboBox Name="cmbExtension"
+                                     Width="Auto"
+                                     VerticalAlignment="Center"
+                                     HorizontalAlignment="Stretch"
+                                      Cursor="Hand"
+                                     Grid.Row="6"
+                                     Grid.Column="1"/>
+
+                            <Button Name="btnSaveExtension"
+                                    Content="Zapamti"
+                                    Click="btnSaveExtension_Click"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"
+                                    Grid.Row="6"
+                                    Grid.Column="2"/>
+
+                            <Grid Name="gridChooseDatabasePath"  Grid.Column="1" Grid.Row="7">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock Name="tblCaption8" 
+                                      Text="Unesite putanju backup baze podataka :   "
+                                      FontWeight="ExtraBlack"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="0"/>
+
+
+                                <Button Name="btnChooseDatabasePath"
+                                        Content="..."
+                                        Width="20"
+                                        Height="20"
+                                        Click="btnChooseDatabasePath_Click"
+                                        HorizontalAlignment="Left"
+                                        VerticalAlignment="Center"
+                                        Grid.Column="1"/>
+                            </Grid>
+
+                            <TextBox Name="tfDatabasePath"
+                                       Width="Auto"
+                                       FontWeight="ExtraBlack"
+                                       BorderBrush="Black"
+                                       TextChanged="tfDatabasePath_TextChanged"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Stretch"
+                                       Grid.Row="8"
+                                       Grid.Column="1"/>
+
+
+                            <Button Name="btnSaveDatabasePath"
+                                    Content="Zapamti"
+                                    Click="btnSaveDatabasePath_Click"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"
+                                    Grid.Row="8"
+                                    Grid.Column="2"/>
+
+                        </Grid>
+                        <Grid Name="gridSetupOptions" Grid.Column="1" Grid.Row="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15" MaxWidth="15"/>
+                                <ColumnDefinition Width="6*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+
+                            <TextBlock Name="tblCaption9" 
+                                      Text="Direktorijum kreiranja izveštaja : "
+                                      FontWeight="ExtraBlack"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="1"/>
+
+                            <TextBlock Name="tblDir2" 
+                                      Text="Koristi se podrazumevana vrednost"
+                                      FontWeight="ExtraBlack"
+                                      Foreground="Azure"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="2"/>
+
+                            <Button Name="btnSaveDir2"
+                                    Content="Vrati"
+                                    Click="btnSaveDir2_Click"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"
+                                    Grid.Row="2"
+                                    Grid.Column="2">
+                                <Button.ToolTip>
+                                    <ToolTip>
+                                        <StackPanel>
+                                            <TextBlock>Vrati na podrazumevanu vrednost</TextBlock>
+                                        </StackPanel>
+                                    </ToolTip>
+                                </Button.ToolTip>
+
+                            </Button>
+
+                            <TextBlock Name="tblCaption10" 
+                                      Text="Naziv izveštaja : "
+                                      FontWeight="ExtraBlack"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="3"/>
+
+                            <TextBlock Name="tblFile2" 
+                                      Text="Koristi se podrazumevana vrednost"
+                                      FontWeight="ExtraBlack"
+                                      Foreground="Azure"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="4"/>
+
+                            <Button Name="btnSaveFile2"
+                                    Content="Vrati"
+                                    Click="btnSaveFile2_Click"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"
+                                    Grid.Row="4"
+                                    Grid.Column="2">
+                                <Button.ToolTip>
+                                    <ToolTip>
+                                        <StackPanel>
+                                            <TextBlock>Vrati na podrazumevanu vrednost</TextBlock>
+                                        </StackPanel>
+                                    </ToolTip>
+                                </Button.ToolTip>
+                            </Button>
+
+                            <TextBlock Name="tblCaption11" 
+                                      Text="Ekstenzija izveštaja : "
+                                      FontWeight="ExtraBlack"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="5"/>
+
+                            <TextBlock Name="tblExtension2" 
+                                      Text="Koristi se podrazumevana vrednost"
+                                      FontWeight="ExtraBlack"
+                                      Foreground="Azure"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="6"/>
+
+
+                            <Button Name="btnSaveExtension2"
+                                    Content="Vrati"
+                                    Click="btnSaveExtension2_Click"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"
+                                    Grid.Row="6"
+                                    Grid.Column="2">
+                                <Button.ToolTip>
+                                    <ToolTip>
+                                        <StackPanel>
+                                            <TextBlock>Vrati na podrazumevanu vrednost</TextBlock>
+                                        </StackPanel>
+                                    </ToolTip>
+                                </Button.ToolTip>
+                            </Button>
+
+                            <TextBlock Name="tblCaption12" 
+                                      Text="Putanja backup baze podataka : "
+                                      FontWeight="ExtraBlack"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="7"/>
+
+                            <TextBlock Name="tblDatabasePath2" 
+                                      Text="Koristi se podrazumevana vrednost"
+                                      FontWeight="ExtraBlack"
+                                      Foreground="Azure"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="8"/>
+
+                            <Button Name="btnSaveDatabasePath2"
+                                    Content="Vrati"
+                                    Click="btnSaveDatabasePath2_Click"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"
+                                    Grid.Row="8"
+                                    Grid.Column="2">
+                                <Button.ToolTip>
+                                    <ToolTip>
+                                        <StackPanel>
+                                            <TextBlock>Vrati na podrazumevanu vrednost</TextBlock>
+                                        </StackPanel>
+                                    </ToolTip>
+                                </Button.ToolTip>
+                            </Button>
+
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Opcije Aplikacije" Name="tabIApp">
+                <Grid Name="gridRootApp" Background="{StaticResource Gradient4}">
+
+                    <Grid  ShowGridLines="True">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid Name="gridCmbApp" Grid.Column="0" Grid.Row="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15" MaxWidth="15"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+
+                            <TextBlock Name="tblPageOrientation"
+                                       Text="Page Orientation kreiranog izveštaja"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Left"
+                                       Grid.Row="2"
+                                       Grid.Column="1"/>
+
+
+                            <RadioButton GroupName="rbtngrouppageOrientation" 
+                                         Name="rbtnPortrait"
+                                         Content="Portrait"
+                                         
+                                         Checked="rbtnPortrait_Checked"
+                                         VerticalAlignment="Center"
+                                         HorizontalAlignment="Left"
+                                         Grid.Row="3"
+                                         Grid.Column="1"/>
+
+                            <RadioButton GroupName ="rbtngrouppageOrientation"
+                                            Name="rbtnLandscape" 
+                                            Content="Landscape"
+                                            Checked="rbtnLandscape_Checked"
+                                            VerticalAlignment="Center"
+                                            HorizontalAlignment="Left"
+                                            Grid.Row="4"
+                                            Grid.Column="1"/>
+
+                            <CheckBox Name="chbtnWriteCode"
+                                      Content="Uključi upis šifre proizvoda u izveštaj"
+                                      Checked="chbtnWriteCode_Checked"
+                                      Unchecked="chbtnWriteCode_Unchecked"
+                                      HorizontalAlignment="Left"
+                                      VerticalAlignment="Center"
+                                      Grid.Row="6"
+                                      Grid.Column="1"/>
+
+                            <CheckBox Name="chkbMask"
+                                      Content="Uključi masku"
+                                      Checked="chkbMask_Checked"
+                                      Unchecked="chkbMask_Unchecked"
+                                      HorizontalAlignment="Left"
+                                      VerticalAlignment="Center"
+                                      Grid.Row="8"
+                                      Grid.Column="1"/>
+
+                            <CheckBox Name="cmbAppSound" 
+                                      Content="Uključi zvuk aplikacije"
+                                      Checked="cmbAppSound_Checked"
+                                      Unchecked="cmbAppSound_Unchecked"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="2"
+                                      Grid.Row="2"/>
+
+                            <CheckBox Name="cmbAppOpen" 
+                                      Content="Otvori fajl kada se završi sa kreiranjem"
+                                      Checked="cmbAppOpen_Checked"
+                                      Unchecked="cmbAppOpen_Unchecked"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="2"
+                                      Grid.Row="4"/>
+
+                            <CheckBox Name="cmbAppCompany" 
+                                      Content="Želim uneti ime firme"
+                                      Checked="cmbAppCompany_Checked"
+                                      Unchecked="cmbAppCompany_Unchecked"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="2"
+                                      Grid.Row="6"/>
+                            <CheckBox Name="cmbAppAuthor" 
+                                      Content="Želim uneti autora izveštaja"
+                                      Checked="cmbAppAuthor_Checked"
+                                      Unchecked="cmbAppAuthor_Unchecked"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="2"
+                                      Grid.Row="8"/>
+                            <CheckBox Name="cmbAppStateStorehouse" 
+                                      FontSize="17"
+                                      Content="Želim promeniti putanju stanja šanka"
+                                      Checked="cmbAppStateStorehouse_Checked"
+                                      Unchecked="cmbAppStateStorehouse_Unchecked"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="2"
+                                      Grid.Row="10"/>
+                        </Grid>
+                        <Grid Name="gridInitialApplicationOptions" Grid.Column="1" Grid.Row="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15" MaxWidth="15"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Name="tblCaptionShowCode" 
+                                      Text="Opcija prikazivanja šifre proizvoda : "
+                                      FontWeight="ExtraBlack"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="2"/>
+
+                            <TextBlock Name="tblSound" 
+                                      Text="Zvuk je isključen"
+                                      FontWeight="ExtraBlack"
+                                      Foreground="Azure"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="3"/>
+
+                            <TextBlock Name="tblCaptionOpenAfterCreated" 
+                                      Text="Opcija otvaranja fajla neposredno posle njegovog kreiranja : "
+                                      FontWeight="ExtraBlack"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="4"/>
+                            <TextBlock Name="tblOpenWhenCreated" 
+                                      Text="Fajl se ne otvara neposredno posle njegovog kreiranja"
+                                      FontWeight="ExtraBlack"
+                                      Foreground="Azure"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="5"/>
+
+                            <TextBlock Name="tblCaption1App" 
+                                      Text="Podrazumevani naziv firme : "
+                                      FontWeight="ExtraBlack"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="6"/>
+                            <TextBlock Name="tblInitialCompany" 
+                                      Text="caffe KAMBODŽA"
+                                      FontWeight="ExtraBlack"
+                                      Foreground="Azure"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="7"/>
+                            <TextBlock Name="tblCaption2App" 
+                                      Text="Podrazumevani autor izveštaja : "
+                                      FontWeight="ExtraBlack"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="8"/>
+                            <TextBlock Name="tblInitialAuthor" 
+                                      Text="Saša Milošević"
+                                      FontWeight="ExtraBlack"
+                                      Foreground="Azure"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="9"/>
+
+                        </Grid>
+                        <Grid Name="gridTfApp" Grid.Column="0" Grid.Row="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15" MaxWidth="15"/>
+                                <ColumnDefinition Width="6*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid Name="gridChangeOptionsApp"  Grid.Column="1" Grid.Row="1">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock Name="tblCaption5App" 
+                                    Text="Unesite naziv firme :   "
+                                    FontWeight="ExtraBlack"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Left"
+                                    Grid.Column="0"
+                                    />
+                            </Grid>
+
+                            <TextBox Name="tfCompany"
+                                       Width="Auto"
+                                       Height="Auto"
+                                       TextChanged="tfCompany_TextChanged"
+                                       FontWeight="ExtraBlack"
+                                       BorderBrush="Black"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Stretch"
+                                       Grid.Row="2"
+                                       Grid.Column="1"/>
+
+                            <Button Name="btnSaveCompany"
+                                    Content="Zapamti"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"
+                                    Click="btnSaveCompany_Click"
+                                    Grid.Row="2"
+                                    Grid.Column="2"/>
+
+                            <TextBlock Name="tblCaption6App" 
+                                      Text="Unesite naziv autora izveštaja : "
+                                      FontWeight="ExtraBlack"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="5"/>
+
+                            <TextBox Name="tfAuthor"
+                                     Width="Auto"
+                                     BorderBrush="Black"
+                                     TextChanged="tfAuthor_TextChanged"
+                                     VerticalAlignment="Center"
+                                     HorizontalAlignment="Stretch"
+                                     Grid.Row="6"
+                                     Grid.Column="1"/>
+
+                            <Button Name="btnSaveAuthor"
+                                    Content="Zapamti"
+                                    Click="btnSaveAuthor_Click"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"
+                                    Grid.Row="6"
+                                    Grid.Column="2"/>
+
+
+                            <Grid Name="gridChooseDirStorehouse"  Grid.Column="1" Grid.Row="8">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock Name="tblCaption7App" 
+                                      Text="Promenite putanju kreiranja stanja šanka : "
+                                      FontWeight="ExtraBlack"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="0"
+                                     />
+
+                                <Button Name="btnChooseDirPathStore"
+                                        Content="..."
+                                        Width="20"
+                                        Height="20"
+                                        Click="btnChooseDirPathStore_Click"
+                                        HorizontalAlignment="Left"
+                                        VerticalAlignment="Center"
+                                        Grid.Column="1"/>
+                            </Grid>
+
+                            <TextBox Name="tfStateOfStorehouse"
+                                     Width="Auto"
+                                     BorderBrush="Black"
+                                     TextChanged="tfStateOfStorehouse_TextChanged"
+                                     VerticalAlignment="Center"
+                                     HorizontalAlignment="Stretch"
+                                     Grid.Row="9"
+                                     Grid.Column="1"/>
+
+                            <Button Name="btnSavePathStateOfStorehouse"
+                                    Content="Zapamti"
+                                    Click="btnSavePathStateOfStorehouse_Click"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"
+                                    Grid.Row="9"
+                                    Grid.Column="2"/>
+
+
+                        </Grid>
+                        <Grid Name="gridSetupOptionsApp" Grid.Column="1" Grid.Row="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15" MaxWidth="15"/>
+                                <ColumnDefinition Width="6*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+
+                            <TextBlock Name="tblCaption9App" 
+                                      Text="Naziv firme : "
+                                      FontWeight="ExtraBlack"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="1"/>
+
+                            <TextBlock Name="tblCompany2" 
+                                      Text="Koristi se podrazumevana vrednost"
+                                      FontWeight="ExtraBlack"
+                                      Foreground="Azure"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="2"/>
+
+                            <Button Name="btnreturnCompany"
+                                    Content="Vrati"
+                                    Click="btnreturnCompany_Click"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"
+                                    Grid.Row="2"
+                                    Grid.Column="2">
+                                <Button.ToolTip>
+                                    <ToolTip>
+                                        <StackPanel>
+                                            <TextBlock>Vrati na podrazumevanu vrednost</TextBlock>
+                                        </StackPanel>
+                                    </ToolTip>
+                                </Button.ToolTip>
+
+                            </Button>
+
+                            <TextBlock Name="tblCaption10App" 
+                                      Text="Naziv autora izveštaja : "
+                                      FontWeight="ExtraBlack"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="5"/>
+
+                            <TextBlock Name="tblAuthor2" 
+                                      Text="Koristi se podrazumevana vrednost"
+                                      FontWeight="ExtraBlack"
+                                      Foreground="Azure"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="6"/>
+
+                            <TextBlock Name="tblCaption12App" 
+                                      Text="Putanja kreiranja stanja šanka : "
+                                      FontWeight="ExtraBlack"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="8"/>
+
+                            <TextBlock Name="tblPathStateStore2" 
+                                     
+                                      FontWeight="ExtraBlack"
+                                      Foreground="DarkOliveGreen"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      Grid.Column="1"
+                                      Grid.Row="9"/>
+
+                            <Button Name="btnReturnAuthor"
+                                    Content="Vrati"
+                                    Click="btnReturnAuthor_Click"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"
+                                    Grid.Row="6"
+                                    Grid.Column="2">
+                                <Button.ToolTip>
+                                    <ToolTip>
+                                        <StackPanel>
+                                            <TextBlock>Vrati na podrazumevanu vrednost</TextBlock>
+                                        </StackPanel>
+                                    </ToolTip>
+                                </Button.ToolTip>
+                            </Button>
+
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Raspored prikazivanja proizvoda kafića u knjizi šanka" Name="tabISchedule">
+                <Grid Name="gridScheduleRoot" Background="{StaticResource Gradient4}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="150"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="100"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="20"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="20"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Name="gridField" Grid.Column="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="15"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="10"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="10"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="10"/>
+                            <RowDefinition Height="25"/>
+                        </Grid.RowDefinitions>
+
+                        <!--<TextBlock Text="Šifra proizvoda :"
+                                   HorizontalAlignment="Left"
+                                   VerticalAlignment="Center"
+                                   Grid.Column="1"
+                                   Grid.Row="1"/>
+                        
+                            <TextBox Name="tfProductCode"
+                                 FontSize="16"
+                                 IsReadOnly="True"
+                                 HorizontalAlignment="Stretch"
+                                 VerticalAlignment="Center"
+                                 Grid.Column="1"
+                                 Grid.Row="3"/>-->
+
+                        <TextBlock Text="Vrsta proizvoda :"
+                                   HorizontalAlignment="Left"
+                                   VerticalAlignment="Center"
+                                   Grid.Column="3"
+                                   Grid.Row="1"/>
+
+                        <TextBox Name="tfProductKind"
+                                 FontSize="16"
+                                 IsReadOnly="True"
+                                 HorizontalAlignment="Stretch"
+                                 VerticalAlignment="Center"
+                                 Grid.Column="3"
+                                 Grid.Row="3"/>
+
+
+                        <TextBlock Text="Redni broj prikaza u knjizi šanka (stari/novi) :"
+                                   HorizontalAlignment="Left"
+                                   VerticalAlignment="Center"
+                                   Grid.Column="5"
+                                   Grid.Row="1"/>
+
+                        <TextBox Name="tfScheduleOld"
+                                 FontSize="16"
+                                 IsReadOnly="True"
+                                 HorizontalAlignment="Stretch"
+                                 VerticalAlignment="Center"
+                                 Grid.Column="5"
+                                 Grid.Row="3"/>
+
+                        <TextBox Name="tfScheduleNew"
+                                 FontSize="16"
+                                 HorizontalAlignment="Stretch"
+                                 VerticalAlignment="Center"
+                                 Grid.Column="5"
+                                 Grid.Row="5"/>
+
+                        <Button Name="btnChangeSchedule"
+                                Content="   promeni redosled   "
+                                Click="btnChangeSchedule_Click"
+                                Grid.Column="5"
+                                Grid.Row="7"/>
+
+                    </Grid>
+
+                    <Grid Name="gridDataGridSchedule" Grid.Row="1" Grid.Column="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                        </Grid.ColumnDefinitions>
+
+                        <DataGrid  
+                                  
+                                   HorizontalAlignment="Stretch"  
+                                   Name="dataGridSchedule" 
+                                   VerticalAlignment="Stretch" 
+                                   Width="Auto" 
+                                   SelectedCellsChanged="dataGridSchedule_SelectedCellsChanged"
+                                   AutoGenerateColumns="False" 
+                                   CanUserReorderColumns="False" 
+                                   CanUserAddRows="False"  
+                                   RowBackground="Snow" 
+                                   AlternatingRowBackground="{StaticResource Gradient3 }" 
+                                   VerticalContentAlignment="Stretch" 
+                                   HorizontalContentAlignment="Stretch"
+                                   ItemsSource="{Binding productsWithOrder}"
+                                   Grid.Column="1">
+
+
+                            <DataGrid.ColumnHeaderStyle>
+                                <Style TargetType="{x:Type DataGridColumnHeader}">
+                                    <Setter Property="ContentTemplate">
+                                        <Setter.Value>
+                                            <DataTemplate>
+                                                <TextBlock TextWrapping="Wrap" Text="{Binding}"></TextBlock>
+                                            </DataTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+
+                            </DataGrid.ColumnHeaderStyle>
+
+                            <DataGrid.Columns>
+
+                                <DataGridTextColumn Header="Šifra proizvoda" Width="*" IsReadOnly="True" Binding="{Binding CodeProduct}"/>
+                                <DataGridTextColumn Header="Vrsta proizvoda" Width="*" IsReadOnly="True" Binding="{Binding KindOfProduct}"/>
+                                <DataGridTextColumn Header="Redni broj prikaza u knjizi šanka" Width="*" IsReadOnly="True" Binding="{Binding OrderNumber}"/>
+                            </DataGrid.Columns>
+
+                        </DataGrid>
+                    </Grid>
+
+
+                </Grid>
+
+            </TabItem>
+
+        </TabControl>
+
+    </Grid>
+</UserControl>

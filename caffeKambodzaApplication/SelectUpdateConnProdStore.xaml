@@ -1,0 +1,251 @@
+﻿<UserControl x:Class="caffeKambodzaApplication.SelectUpdateConnProdStore"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="1400">
+
+
+    <UserControl.Resources>
+        <ImageSource x:Key="AddFilterImage">Resources\AdvFilterImage.ico</ImageSource>
+        <ImageSource x:Key="RemoveFilterImage">Resources\DeleteFilter.ico</ImageSource>
+
+        <Color x:Key="Color1">Black</Color>
+        <Color x:Key="Color2">White</Color>
+        <Color x:Key="Color3">Gray</Color>
+        <Color x:Key="Color4">LightGray</Color>
+        <Color x:Key="Color5">Green</Color>
+        <Color x:Key="Color6">LightGreen</Color>
+
+        <LinearGradientBrush x:Key="Gradient3" StartPoint="0,0" EndPoint="1,0">
+            <GradientStop Color="{DynamicResource Color4}" Offset="0.1"/>
+            <GradientStop Color="{DynamicResource Color2}" Offset="0.2"/>
+            <GradientStop Color="{DynamicResource Color4}" Offset="0.3"/>
+            <GradientStop Color="{DynamicResource Color2}" Offset="0.4"/>
+            <GradientStop Color="{DynamicResource Color4}" Offset="0.5"/>
+            <GradientStop Color="{DynamicResource Color2}" Offset="0.6"/>
+            <GradientStop Color="{DynamicResource Color4}" Offset="0.7"/>
+            <GradientStop Color="{DynamicResource Color2}" Offset="0.8"/>
+            <GradientStop Color="{DynamicResource Color4}" Offset="0.9"/>
+            <GradientStop Color="{DynamicResource Color2}" Offset="1"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="Gradient4" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="Gray" Offset="0.0"/>
+            <GradientStop Color="White" Offset="0.1"/>
+            <GradientStop Color="LightGray" Offset="0.2"/>
+            <GradientStop Color="Gray" Offset="0.3"/>
+            <GradientStop Color="White" Offset="0.4"/>
+            <GradientStop Color="LightGray" Offset="0.5"/>
+            <GradientStop Color="Gray" Offset="0.6"/>
+            <GradientStop Color="White" Offset="0.7"/>
+            <GradientStop Color="LightGray" Offset="0.8"/>
+            <GradientStop Color="Gray" Offset="0.9"/>
+            <GradientStop Color="White" Offset="1"/>
+        </LinearGradientBrush>
+
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8"/>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Name="gridAllFilterData" Grid.Row="1"  Grid.Column="0"  Background="{StaticResource Gradient4}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Name="gridFilterRecipes" Grid.Column="0" Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="290"/>
+                    <ColumnDefinition Width="255"/>
+                    <ColumnDefinition Width="10" MaxWidth="10"/>
+                    <ColumnDefinition Width="2*"/>
+
+                    <ColumnDefinition Width="0.1*"/>
+                    <ColumnDefinition MaxWidth="30"/>
+                    <ColumnDefinition Width="10" MaxWidth="10"/>
+                    <ColumnDefinition MaxWidth="30"/>
+                    <ColumnDefinition Width="20" MaxWidth="20"/>
+                </Grid.ColumnDefinitions>
+                <ToolBar Name="leftToolBarRecipes" Grid.Column="0" Grid.ColumnSpan="10" Height="36" HorizontalAlignment="Stretch"   VerticalAlignment="Stretch" Width="Auto" Background="DarkGray"/>
+
+                <TextBlock Text="   Izaberite kolonu koju želite filtrirati : "
+                                       HorizontalAlignment="Left"
+                                       VerticalAlignment="Center"
+                                       Grid.Column="0"/>
+
+                <ComboBox Grid.Column="1" HorizontalAlignment="Stretch"  Name="cmbFilterColumnRecipes" VerticalAlignment="Center" Width="Auto" Cursor="Hand">
+
+                    <ComboBoxItem>Izaberite kolonu za filtriranje</ComboBoxItem>
+                    <ComboBoxItem>Šifra proizvoda</ComboBoxItem>
+                    <ComboBoxItem>Šifra stavke šanka</ComboBoxItem>
+                    <ComboBoxItem>Vrsta proizvoda</ComboBoxItem>
+                    <ComboBoxItem>Naziv stavke šanka</ComboBoxItem>
+                    <ComboBoxItem>Grupa stavke šanka</ComboBoxItem>
+                    <ComboBoxItem>Količinski udeo proizvoda(kg/l)</ComboBoxItem>
+                    <ComboBoxItem>Količina stavke šanka(kg/l)</ComboBoxItem>
+                    <ComboBoxItem>Cena stavke šanka(din)</ComboBoxItem>
+
+                </ComboBox>
+
+
+                <TextBox Name="tfFilterRecipes"
+                                     MouseEnter="tfFilterRecipes_MouseEnter"
+                                     MouseLeave="tfFilterRecipes_MouseLeave"
+                                     KeyDown="tfFilterRecipes_KeyDown"
+                                     VerticalAlignment="Center"
+                                     HorizontalAlignment="Stretch"
+                                     Grid.Column="3"/>
+
+                <Button Name="btnAddFilterRecipes"
+                                    Background="Black"
+                                    Height="25"
+                                    MouseEnter="btnAddFilterRecipes_MouseEnter"
+                                    MouseLeave="btnAddFilterRecipes_MouseLeave"
+                                    Click="btnAddFilterRecipes_Click"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Grid.Column="5">
+                    <Button.Content>
+                        <Image Source="{StaticResource AddFilterImage}"/>
+                    </Button.Content>
+                </Button>
+
+                <Button Name="btnRemoveFilterRecipes"
+                                    Background="Black"
+                                    Height="25"
+                                    MouseEnter="btnRemoveFilterRecipes_MouseEnter"
+                                    MouseLeave="btnRemoveFilterRecipes_MouseLeave"
+                                    Click="btnRemoveFilterRecipes_Click"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Grid.Column="7">
+                    <Button.Content>
+                        <Image Source="{StaticResource RemoveFilterImage}"/>
+                    </Button.Content>
+                </Button>
+            </Grid>
+
+            <Grid Name="gridFilterStatusRecipes" Grid.Column="0" Grid.Row="1">
+
+                <TextBlock Name="tblFilterStatusRecipes" 
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Stretch"/>
+
+            </Grid>
+
+        </Grid>
+
+        <DataGrid  Name="dgridCurrProductStoreItemConn"
+                           AutoGenerateColumns="False"
+                           ItemsSource="{Binding records}"
+                           CanUserAddRows="False"
+                           SelectionMode="Single"
+                           SelectedCellsChanged="dgridCurrProductStoreItemConn_SelectedCellsChanged"
+                           Grid.Row="2">
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="FontSize"
+                                    Value="12" />
+                    <Setter Property="ContentTemplate">
+                        <Setter.Value>
+                            <DataTemplate>
+                                <TextBlock TextWrapping="Wrap" Text="{Binding}"></TextBlock>
+                            </DataTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+
+            </DataGrid.ColumnHeaderStyle>
+            <DataGrid.Columns>
+                    <DataGridTextColumn   Header="Šifra proizvoda" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=ConnCodeProduct}"/>
+                    <DataGridTextColumn   Header="Šifra stavke šanka" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=ConnStoreItemCode}"/>
+                    <DataGridTextColumn   Header="Vrsta proizvoda" Foreground="Blue" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=ConnKindOfProduct}"/>
+                    <DataGridTextColumn   Header="Naziv stavke šanka" Foreground="Green" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=ConnStoreItemName}"/>
+                    <DataGridTextColumn   Header="Grupa stavke šanka" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=GroupStoreItem}"/>
+                    <DataGridTextColumn   Header="Količinski udeo proizvoda(kg/l) " Foreground="Blue" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=AmountProduct, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn   Header="Količina stavke šanka(kg/l)" Foreground="Green" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=AmountStoreItem}"/>
+                <DataGridTextColumn   Header="Cena stavke šanka(din)" FontWeight="Bold" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=Price}"/>
+            </DataGrid.Columns>
+            </DataGrid>
+
+        <Grid Name="gridtfsPart" Grid.Row="3"   Background="{StaticResource Gradient4}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+            <TextBox Name="tf1"
+                     Width="300"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Stretch"
+                     Grid.Column="0" 
+                     Grid.Row="0"/>
+            <TextBox Name="tf2"
+                     Width="300"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Stretch"
+                     Grid.Column="1" 
+                     Grid.Row="0"/>
+            <TextBox Name="tf3"
+                     Width="300"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Stretch"
+                     Grid.Column="2" 
+                     Grid.Row="0"/>
+            <TextBox Name="tf4"
+                     Width="300"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Stretch"
+                     Grid.Column="3" 
+                     Grid.Row="0"/>
+            <TextBox Name="tf5"
+                     Width="300"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Stretch"
+                     Grid.Column="0" 
+                     Grid.Row="1"/>
+            <TextBox Name="tf6"
+                     Width="300"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Stretch"
+                     Grid.Column="1" 
+                     Grid.Row="1"/>
+            <TextBox Name="tf7"
+                     Width="300"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Stretch"
+                     Grid.Column="2" 
+                     Grid.Row="1"/>
+            <TextBox Name="tf8"
+                     Width="300"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Stretch"
+                     Grid.Column="3" 
+                     Grid.Row="1"/>
+            <Button Name="btnUpdate"
+                    Content=" Zapamti promene "
+                    Click="btnUpdate_Click"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    Grid.Column="3"
+                    Grid.Row="2"/>
+        </Grid>
+
+
+    </Grid>
+</UserControl>

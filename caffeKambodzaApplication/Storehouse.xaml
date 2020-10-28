@@ -1,0 +1,1233 @@
+﻿<UserControl x:Class="caffeKambodzaApplication.Storehouse"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="1400">
+
+    <UserControl.Resources>
+        <ImageSource x:Key="AddFilterImage">Resources\AdvFilterImage.ico</ImageSource>
+        <ImageSource x:Key="RemoveFilterImage">Resources\DeleteFilter.ico</ImageSource>
+
+
+        <Color x:Key="Color1">Black</Color>
+        <Color x:Key="Color2">White</Color>
+        <Color x:Key="Color3">Gray</Color>
+        <Color x:Key="Color4">LightGray</Color>
+        <Color x:Key="Color5">Green</Color>
+        <Color x:Key="Color6">LightGreen</Color>
+
+        <LinearGradientBrush x:Key="Gradient3" StartPoint="0,0" EndPoint="1,0">
+            <GradientStop Color="{DynamicResource Color4}" Offset="0.1"/>
+            <GradientStop Color="{DynamicResource Color2}" Offset="0.2"/>
+            <GradientStop Color="{DynamicResource Color4}" Offset="0.3"/>
+            <GradientStop Color="{DynamicResource Color2}" Offset="0.4"/>
+            <GradientStop Color="{DynamicResource Color4}" Offset="0.5"/>
+            <GradientStop Color="{DynamicResource Color2}" Offset="0.6"/>
+            <GradientStop Color="{DynamicResource Color4}" Offset="0.7"/>
+            <GradientStop Color="{DynamicResource Color2}" Offset="0.8"/>
+            <GradientStop Color="{DynamicResource Color4}" Offset="0.9"/>
+            <GradientStop Color="{DynamicResource Color2}" Offset="1"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="Gradient4" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="Gray" Offset="0.0"/>
+            <GradientStop Color="White" Offset="0.1"/>
+            <GradientStop Color="LightGray" Offset="0.2"/>
+            <GradientStop Color="Gray" Offset="0.3"/>
+            <GradientStop Color="White" Offset="0.4"/>
+            <GradientStop Color="LightGray" Offset="0.5"/>
+            <GradientStop Color="Gray" Offset="0.6"/>
+            <GradientStop Color="White" Offset="0.7"/>
+            <GradientStop Color="LightGray" Offset="0.8"/>
+            <GradientStop Color="Gray" Offset="0.9"/>
+            <GradientStop Color="White" Offset="1"/>
+        </LinearGradientBrush>
+    </UserControl.Resources>
+    
+    <Grid>
+        <TabControl Name="tabcontrolStore" >
+            <TabItem Name="tabIEnterInStore" Header="Unos podataka u šank">
+                <Grid  Name="gridTab1" Background="{StaticResource Gradient4}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Row="9">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="           " Grid.Column="0"/>
+                        <TextBlock Text="Izaberite stavku šanka koju unosite : "
+                                   Grid.Column="1"/>
+                    </Grid>
+
+
+
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="           " Grid.Column="0"/>
+                        <TextBlock Text="Izaberite datum unosa stavki : "
+                                   Grid.Column="1"/>
+                    </Grid>
+
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="300"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="           " Grid.Column="0"/>
+                        <DatePicker Name="datepicker1"
+                                    Width="300"
+                                    FontSize="15"
+                                    VerticalAlignment="Center"
+                                    HorizontalAlignment="Left"
+                                    SelectedDateChanged="datepicker1_SelectedDateChanged"
+                                    Grid.Column="1" >
+                            <DatePicker.Resources>
+                                <Style TargetType="DatePickerTextBox">
+                                    <Setter Property="IsReadOnly" Value="True"/>
+                                </Style>
+                            </DatePicker.Resources>
+
+                        </DatePicker>
+                        <TextBlock Name="dateRemark"
+                                   Text="  Morate uneti datum unosa stavki šanka "
+                                   Grid.Column="2"/>
+                    </Grid>
+
+                   
+
+                    <Grid Grid.Row="7">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="           " Grid.Column="0"/>
+                        <TextBlock Text="Izaberite grupu stavki šanka koju unosite : "
+                                   Grid.Column="1"/>
+                    </Grid>
+
+                    <Grid Grid.Row="8">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="           " Grid.Column="0"/>
+                        <ComboBox Name="cmbSGroup"
+                                  SelectionChanged="cmbSGroup_SelectionChanged"
+                                  Width="500"
+                                  VerticalAlignment="Center"
+                                  HorizontalAlignment="Left"
+                                  Grid.Column="1"/>
+                    </Grid>
+
+                    <Grid Grid.Row="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="           " Grid.Column="0"/>
+                        <ComboBox Name="cmbSItem"
+                                  SelectionChanged="cmbSItem_SelectionChanged"
+                                  Width="500"
+                                  VerticalAlignment="Center"
+                                  HorizontalAlignment="Left"
+                                  Grid.Column="1"/>
+                    </Grid>
+
+                    <Grid Grid.Row="12">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="           " Grid.Column="0"/>
+                        <TextBlock Text="Unesite broj komada izabrane stavke šanka : "
+                                   Grid.Column="1"/>
+                    </Grid>
+
+                    <Grid Grid.Row="13">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50"/>
+                            <ColumnDefinition Width="500"/>
+                            <ColumnDefinition Width="20" MaxWidth="20"/>
+                            <ColumnDefinition Width="100" MaxWidth="100"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBox Name="tfStoreRealAmount" 
+                         FontSize="16"
+                         Height="25"
+                         FontWeight="Normal"
+                         TextChanged="tfStoreRealAmount_TextChanged"
+                         Grid.Column="1"/>
+
+                    </Grid>
+
+                    <Grid Grid.Row="15">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="           " Grid.Column="0"/>
+                        <Button Name="btnEnter"
+                                Content="  Unesi stavku u šank  "
+                                  Width="Auto"
+                                  Click="btnEnter_Click"
+                                  VerticalAlignment="Center"
+                                  HorizontalAlignment="Left"
+                                  Grid.Column="1"/>
+                    </Grid>
+
+                    <Grid Grid.Row="17">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="           " Grid.Column="0"/>
+                        <Button Name="btnFinish"
+                                Content="  Završi današnji unos u šank  "
+                                  Width="Auto"
+                                 Click="btnFinish_Click"
+                                  VerticalAlignment="Center"
+                                  HorizontalAlignment="Left"
+                                  Grid.Column="1"/>
+                    </Grid>
+
+                    <Grid Grid.Row="19">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="           " Grid.Column="0"/>
+                        <TextBlock Text="Vraćanje sistema jedan dan unazad : "
+                                   Grid.Column="1"/>
+                    </Grid>
+
+
+                    <Grid Grid.Row="21">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="           " Grid.Column="0"/>
+                        <Button Name="btnReturnOneDay"
+                                Content="  Vrati sistem dan unazad  "
+                                  Width="Auto"
+                                Click="btnReturnOneDay_Click"
+                                  VerticalAlignment="Center"
+                                  HorizontalAlignment="Left"
+                                  Grid.Column="1"/>
+                    </Grid>
+
+                    <Grid Grid.Row="2" Grid.Column="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="           " Grid.Column="0"/>
+                        <TextBlock Text=" Spisak unetih stavki šanka za izabrani datum, koje nisu unete : "
+                                   Grid.Column="1"/>
+                    </Grid>
+
+                    <Grid Grid.Row="4" Grid.Column="1" Grid.RowSpan="15">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="           " Grid.Column="0"/>
+                        <DataGrid  Name="dgridDailyEnterInStorehouse"
+                           AutoGenerateColumns="False"
+                   
+                           ItemsSource="{Binding DailyStoreItem}"
+                           CanUserAddRows="False"
+                           SelectionMode="Single"
+                           Grid.Row="2"
+                           Grid.Column="1">
+
+                            <DataGrid.ColumnHeaderStyle>
+                                <Style TargetType="{x:Type DataGridColumnHeader}">
+                                    <Setter Property="FontSize"
+                                    Value="12" />
+                                    <Setter Property="ContentTemplate">
+                                        <Setter.Value>
+                                            <DataTemplate>
+                                                <TextBlock TextWrapping="Wrap" Text="{Binding}"></TextBlock>
+                                            </DataTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+
+                            </DataGrid.ColumnHeaderStyle>
+
+
+                            <DataGrid.Columns>
+
+                                <DataGridTextColumn   Header="Naziv stavke šanka" Width="4*" FontSize="12" IsReadOnly="True" Binding="{Binding KindOfProduct}"/>
+
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+
+                </Grid>
+            </TabItem>
+            <TabItem Name="tabIStateStore" Header="Trenutno u upotrebi">
+                <Grid Name="gridTab2" Background="{StaticResource Gradient4}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Grid Name="gridLeftSide"
+                          Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="3*"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="3*"/>
+                        </Grid.RowDefinitions>
+                        
+                        <TextBlock Text="   Izabrani proizvod kafića :"
+                                   Grid.Row="1"/>
+                        <Grid Grid.Row="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15" MaxWidth="15"/>
+                                <ColumnDefinition Width="*"/>
+
+                            </Grid.ColumnDefinitions>
+
+                        <ComboBox Name="cmbItemStore"
+                          HorizontalAlignment="Stretch"
+                          Height="25"
+                          FontSize="15"
+                          SelectionChanged="cmbItemStore_SelectionChanged"
+                          Grid.Column="1">
+
+                            </ComboBox>
+                        </Grid>
+                        <Grid Name="gridDataGrid" Grid.Row="4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <DataGrid  Name="dgrid"
+                                       ItemsSource="{Binding _currStoreItemProducts}"
+                                       AutoGenerateColumns="False"
+                                       CanUserAddRows="False"
+                                       SelectionMode="Single"
+                                       MouseDoubleClick="dgrid_MouseDoubleClick"
+                                       Grid.Column="1">
+                                <DataGrid.ColumnHeaderStyle>
+                                    <Style TargetType="{x:Type DataGridColumnHeader}">
+                                        <Setter Property="FontSize"
+                                    Value="14" />
+                                    </Style>
+                                </DataGrid.ColumnHeaderStyle>
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn   Header="Stavke šanka" Width="5*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=KindOfProduct}"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+
+                        </Grid>
+                        
+                        <TextBlock Text="   Stavke šanka koje su u upotrebi za izabrani proizvod :" VerticalAlignment="Center" Grid.Row="5"/>
+
+                        <Grid Name="gridDataGridinUse" Grid.Row="6">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <DataGrid  Name="dgridinUse"
+                                       ItemsSource="{Binding _currStoreItemProductsInUse}"
+                                       AutoGenerateColumns="False"
+                                       CanUserAddRows="False"
+                                       SelectionMode="Single"
+                                       MouseDoubleClick="dgridinUse_MouseDoubleClick"
+                                       Grid.Column="1">
+                                <DataGrid.ColumnHeaderStyle>
+                                    <Style TargetType="{x:Type DataGridColumnHeader}">
+                                        <Setter Property="FontSize"
+                                    Value="14" />
+                                    </Style>
+                                </DataGrid.ColumnHeaderStyle>
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn   Header="Stavke šanka" Width="5*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=KindOfProduct}"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </Grid>
+
+
+                      
+
+
+                    </Grid>
+
+                    <Grid Name="rightSide" Grid.Column="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Name="gridFilter" Grid.Column="1" Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="290"/>
+                                <ColumnDefinition Width="255"/>
+                                <ColumnDefinition Width="10" MaxWidth="10"/>
+                                <ColumnDefinition Width="2*"/>
+      
+                                <ColumnDefinition Width="0.1*"/>
+                                <ColumnDefinition MaxWidth="30"/>
+                                <ColumnDefinition Width="10" MaxWidth="10"/>
+                                <ColumnDefinition MaxWidth="30"/>
+                                <ColumnDefinition Width="20" MaxWidth="20"/>
+                            </Grid.ColumnDefinitions>
+                            <ToolBar Name="leftToolBar" Grid.Column="0" Grid.ColumnSpan="10" Height="36" HorizontalAlignment="Stretch"   VerticalAlignment="Stretch" Width="Auto" Background="LightGray"/>
+
+                            <TextBlock Text="   Izaberite kolonu koju želite filtrirati : "
+                                       HorizontalAlignment="Left"
+                                       VerticalAlignment="Center"
+                                       Grid.Column="0"/>
+
+                            <ComboBox Grid.Column="1" HorizontalAlignment="Stretch"  Name="cmbFilterColumn" VerticalAlignment="Center" Width="Auto" Cursor="Hand">
+
+                                <ComboBoxItem>Izaberite kolonu za filtriranje</ComboBoxItem>
+                                <ComboBoxItem>Vrsta proizvoda</ComboBoxItem>
+                                <ComboBoxItem>Naziv stavke šanka</ComboBoxItem>
+                                <ComboBoxItem>Grupa stavke šanka</ComboBoxItem>
+                                <ComboBoxItem>Količinski udeo proizvoda(kg/l)</ComboBoxItem>
+                                <ComboBoxItem>Količina stavke šanka(kg/l)</ComboBoxItem>
+                                <ComboBoxItem>Cena stavke šanka(din)</ComboBoxItem>
+                               
+                            </ComboBox>
+
+
+                            <TextBox Name="tfFilter"
+                                     MouseEnter="tfFilter_MouseEnter"
+                                     MouseLeave="tfFilter_MouseLeave"
+                                     KeyDown="tfFilter_KeyDown"
+                                     VerticalAlignment="Center"
+                                     HorizontalAlignment="Stretch"
+                                     Grid.Column="3"/>
+                            
+                            <Button Name="btnAddFilter"
+                                    Background="Black"
+                                    Height="25"
+                                    MouseEnter="btnAddFilter_MouseEnter"
+                                    MouseLeave="btnAddFilter_MouseLeave"
+                                    Click="btnAddFilter_Click"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Grid.Column="5">
+                                <Button.Content>
+                                    <Image Source="{StaticResource AddFilterImage}"/>
+                                </Button.Content>
+                            </Button>
+
+                            <Button Name="btnRemoveFilter"
+                                    Background="Black"
+                                    Height="25"
+                                    MouseEnter="btnRemoveFilter_MouseEnter"
+                                    MouseLeave="btnRemoveFilter_MouseLeave"
+                                    Click="btnRemoveFilter_Click"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Grid.Column="7">
+                                <Button.Content>
+                                    <Image Source="{StaticResource RemoveFilterImage}"/>
+                                </Button.Content>
+                            </Button>
+                        </Grid>
+
+                        <Grid Name="gridFilterStatus" Grid.Column="1" Grid.Row="1">
+                            
+                            <TextBlock Name="tblFilterStatus" 
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Stretch"/>
+                            
+                        </Grid>
+
+                        <DataGrid  Name="dgridUsed"
+                           AutoGenerateColumns="False"
+                           ItemsSource="{Binding usedRecords}"
+                           CanUserAddRows="False"
+                           SelectionMode="Single"
+                           Grid.Row="2"
+                           Grid.Column="1">
+
+                            <DataGrid.ColumnHeaderStyle>
+                                <Style TargetType="{x:Type DataGridColumnHeader}">
+                                    <Setter Property="FontSize"
+                                    Value="12" />
+                                    <Setter Property="ContentTemplate">
+                                        <Setter.Value>
+                                            <DataTemplate>
+                                                <TextBlock TextWrapping="Wrap" Text="{Binding}"></TextBlock>
+                                            </DataTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+
+                            </DataGrid.ColumnHeaderStyle>
+
+
+                            <DataGrid.Columns>
+                                <DataGridTextColumn   Header="Vrsta proizvoda" Foreground="Blue" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=ConnKindOfProduct}"/>
+                                <DataGridTextColumn   Header="Naziv stavke šanka" Foreground="Green" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=ConnStoreItemName}"/>
+                                <DataGridTextColumn   Header="Grupa stavke šanka" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=GroupStoreItem}"/>
+                                <DataGridTextColumn   Header="Količinski udeo proizvoda(kg/l) " Foreground="Blue" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=AmountProduct, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                                <DataGridTextColumn   Header="Količina stavke šanka(kg/l)" Foreground="Green" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=AmountStoreItem}"/>
+                                <DataGridTextColumn   Header="Cena stavke šanka(din)" FontWeight="Bold" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=Price}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+
+                    </Grid>
+
+                </Grid>
+            </TabItem>
+
+            <TabItem Name="tabIThreshold" Header="Pragovi stavki šanka">
+                <Grid Name="gridTab3" Background="{StaticResource Gradient4}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Name="gridTab3LeftSide" Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="105"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="25"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid  Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="   "/>
+                            <TextBlock Text="Izaberite grupu stavki šanka koju unosite : " Grid.Column="1"/>
+                        </Grid>
+
+                        <Grid  Grid.Row="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="   "/>
+                            <ComboBox  Name="cmbThresholdGroups"
+                                       SelectionChanged="cmbThresholdGroups_SelectionChanged"
+                                        Grid.Column="1"/>  
+                        </Grid>
+
+
+                        <Grid  Grid.Row="4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="   "/>
+                            <TextBlock Text="Izaberite stavku šanka koju unosite : " Grid.Column="1"/>
+                        </Grid>
+
+                        <Grid  Grid.Row="5">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="   "/>
+                            <ComboBox  Name="cmbThresholdItems"
+                                        Grid.Column="1"/>
+
+                        </Grid>
+
+
+
+                        <Grid  Grid.Row="7">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="   "/>
+                            <TextBlock Text="Unesite prag izabrane stavke šanka [broj](kg/l) : " Grid.Column="1"/>
+                        </Grid>
+
+
+                        <Grid Grid.Row = "8">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBox Name="tfThresholdForItem" 
+                         FontSize="16"
+                         Height="25"
+                         FontWeight="Normal"
+                        TextChanged="tfThresholdForItem_TextChanged"
+                         Grid.Column="1"/>
+
+                        </Grid>
+
+                        <Grid Grid.Row="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="   " Grid.Column="0"/>
+                            <Button Name="btnEnterThreshold"
+                                Content="  Postavi prag izabrane stavke šanka "
+                                  Width="Auto"
+                                  Click="btnEnterThreshold_Click"
+                                  VerticalAlignment="Center"
+                                  HorizontalAlignment="Left"
+                                  Grid.Column="1"/>
+                        </Grid>
+
+
+
+                        <Grid  Grid.Row="12">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="   "/>
+                            <TextBlock Text="Prag izabrane stavke šanka je : " Grid.Column="1"/>
+                        </Grid>
+
+                        <Grid Grid.Row = "13">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBox Name="tfThresholdForItemRead" 
+                                    FontSize="16"
+                                    Height="25"
+                                    IsReadOnly="True"
+                                    FontWeight="Normal"
+                                    TextChanged="tfThresholdForItem_TextChanged"
+                                    Grid.Column="1"/>
+
+                        </Grid>
+
+
+                    </Grid>
+
+                    <Grid Name="gridTab3RightSide" Grid.Column="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Name="gridFilterTab3" Grid.Column="1" Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="290"/>
+                                <ColumnDefinition Width="255"/>
+                                <ColumnDefinition Width="10" MaxWidth="10"/>
+                                <ColumnDefinition Width="2*"/>
+
+                                <ColumnDefinition Width="0.1*"/>
+                                <ColumnDefinition MaxWidth="30"/>
+                                <ColumnDefinition Width="10" MaxWidth="10"/>
+                                <ColumnDefinition MaxWidth="30"/>
+                                <ColumnDefinition Width="20" MaxWidth="20"/>
+                            </Grid.ColumnDefinitions>
+                            <ToolBar Name="leftToolBarTab3" Grid.Column="0" Grid.ColumnSpan="10" Height="36" HorizontalAlignment="Stretch"   VerticalAlignment="Stretch" Width="Auto" Background="LightGray"/>
+
+                            <TextBlock Text="   Izaberite kolonu koju želite filtrirati : "
+                                       HorizontalAlignment="Left"
+                                       VerticalAlignment="Center"
+                                       Grid.Column="0"/>
+
+                            <ComboBox Grid.Column="1" HorizontalAlignment="Stretch"  Name="cmbFilterColumnTab3" VerticalAlignment="Center" Width="Auto" Cursor="Hand">
+
+                                <ComboBoxItem>Izaberite kolonu za filtriranje</ComboBoxItem>
+                                <ComboBoxItem>Šifra stavke</ComboBoxItem>
+                                <ComboBoxItem>Naziv stavke</ComboBoxItem>
+                                <ComboBoxItem>Grupa stavke</ComboBoxItem>
+                                <ComboBoxItem>Jed cena stavke(din)</ComboBoxItem>
+                                <ComboBoxItem>Jed kol stavke(kg/l)</ComboBoxItem>
+                                <ComboBoxItem>Prag(kg/l)</ComboBoxItem>
+
+                            </ComboBox>
+
+
+                            <TextBox Name="tfFilterTab3"
+                                     MouseEnter="tfFilterTab3_MouseEnter"
+                                     MouseLeave="tfFilterTab3_MouseLeave"
+                                     KeyDown="tfFilterTab3_KeyDown"
+                                     VerticalAlignment="Center"
+                                     HorizontalAlignment="Stretch"
+                                     Grid.Column="3"/>
+
+                            <Button Name="btnAddFilterTab3"
+                                    Background="Black"
+                                    Height="25"
+                                    MouseEnter="btnAddFilterTab3_MouseEnter"
+                                    MouseLeave="btnAddFilterTab3_MouseLeave"
+                                    Click="btnAddFilterTab3_Click"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Grid.Column="5">
+                                <Button.Content>
+                                    <Image Source="{StaticResource AddFilterImage}"/>
+                                </Button.Content>
+                            </Button>
+
+                            <Button Name="btnRemoveFilterTab3"
+                                    Background="Black"
+                                    Height="25"
+                                    MouseEnter="btnRemoveFilterTab3_MouseEnter"
+                                    MouseLeave="btnRemoveFilterTab3_MouseLeave"
+                                    Click="btnRemoveFilterTab3_Click"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Grid.Column="7">
+                                <Button.Content>
+                                    <Image Source="{StaticResource RemoveFilterImage}"/>
+                                </Button.Content>
+                            </Button>
+                        </Grid>
+
+                        <Grid Name="gridFilterStatusTab3" Grid.Column="1" Grid.Row="1">
+
+                            <TextBlock Name="tblFilterStatusTab3" 
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Stretch"/>
+
+                        </Grid>
+
+                        <DataGrid  Name="dgridThresholds"
+                           AutoGenerateColumns="False"
+                           ItemsSource="{Binding  ItemsThreshold}"
+                           CanUserAddRows="False"
+                           SelectionMode="Single"
+                           Grid.Row="2"
+                           Grid.Column="1">
+
+
+
+
+
+                            <DataGrid.ColumnHeaderStyle>
+                                <Style TargetType="{x:Type DataGridColumnHeader}">
+                                    <Setter Property="FontSize"
+                                    Value="12" />
+                                    <Setter Property="ContentTemplate">
+                                        <Setter.Value>
+                                            <DataTemplate>
+                                                <TextBlock TextWrapping="Wrap" Text="{Binding}"></TextBlock>
+                                            </DataTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+
+                            </DataGrid.ColumnHeaderStyle>
+
+
+                            <DataGrid.Columns>
+                                <DataGridTextColumn   Header="Šifra stavke" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=CodeProduct}"/>
+                                <DataGridTextColumn   Header="Naziv stavke" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=KindOfProduct}"/>
+                                <DataGridTextColumn   Header="Grupa stavke" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=Group}"/>
+                                <DataGridTextColumn   Header="Jed cena stavke(din) " Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=Price, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                                <DataGridTextColumn   Header="Jed kol stavke(kg/l) " Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=Amount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                                <DataGridTextColumn   Header="Prag(kg/l)" FontWeight="Bold" Foreground="Green" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=Threshold, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+
+
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+            <TabItem Name="tabIStateOfStorehouse" Header="Stanje šanka">
+                <Grid Name="gridTab4" Background="{StaticResource Gradient4}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="8*"/>
+                        <RowDefinition Height="2*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="20*"/>
+                        <ColumnDefinition Width="538*"/>
+                        <ColumnDefinition Width="812*" />
+                        <ColumnDefinition Width="20*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Name="gridAllFilterData" Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="2">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Name="gridFilterTab4" Grid.Column="0" Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="290"/>
+                                <ColumnDefinition Width="255"/>
+                                <ColumnDefinition Width="10" MaxWidth="10"/>
+                                <ColumnDefinition Width="2*"/>
+
+                                <ColumnDefinition Width="0.1*"/>
+                                <ColumnDefinition MaxWidth="30"/>
+                                <ColumnDefinition Width="10" MaxWidth="10"/>
+                                <ColumnDefinition MaxWidth="30"/>
+                                <ColumnDefinition Width="20" MaxWidth="20"/>
+                            </Grid.ColumnDefinitions>
+                            <ToolBar Name="leftToolBarTab4" Grid.Column="0" Grid.ColumnSpan="10" Height="36" HorizontalAlignment="Stretch"   VerticalAlignment="Stretch" Width="Auto" Background="LightGray"/>
+
+                            <TextBlock Text="   Izaberite kolonu koju želite filtrirati : "
+                                       HorizontalAlignment="Left"
+                                       VerticalAlignment="Center"
+                                       Grid.Column="0"/>
+
+                            <ComboBox Grid.Column="1" HorizontalAlignment="Stretch"  Name="cmbFilterColumnTab4" VerticalAlignment="Center" Width="Auto" Cursor="Hand">
+
+                                <ComboBoxItem>Izaberite kolonu za filtriranje</ComboBoxItem>
+                                <ComboBoxItem>Šifra stavke šanka</ComboBoxItem>
+                                <ComboBoxItem>Naziv stavke šanka</ComboBoxItem>
+                                <ComboBoxItem>Grupa stavke šanka</ComboBoxItem>
+                                <ComboBoxItem>Količina stavke u šanku (kg/l)</ComboBoxItem>
+                                <ComboBoxItem>Vrednost stavke šanka (din)</ComboBoxItem>
+
+                            </ComboBox>
+
+
+                            <TextBox Name="tfFilterTab4"
+                                     TextChanged="tfFilterTab4_TextChanged"
+                                     MouseEnter="tfFilterTab4_MouseEnter"
+                                     MouseLeave="tfFilterTab4_MouseLeave"
+                                     KeyDown="tfFilterTab4_KeyDown"
+                                     VerticalAlignment="Center"
+                                     HorizontalAlignment="Stretch"
+                                     Grid.Column="3"/>
+
+                            
+                        </Grid>
+
+                        <Grid Name="gridFilterStatusTab4" Grid.Column="0" Grid.Row="1">
+
+                            <TextBlock Name="tblFilterStatusTab4" 
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Stretch"/>
+
+                        </Grid>
+
+                    </Grid>
+
+                    <DataGrid  Name="dgridStateOfStorehouse"
+                           AutoGenerateColumns="False"
+                           SelectedCellsChanged="dgridStateOfStorehouse_SelectedCellsChanged"
+                           ItemsSource="{Binding StorehouseItems}"
+                           CanUserAddRows="False"
+                           SelectionMode="Single"
+                           Grid.Row="2"
+                           Grid.Column="1" Grid.ColumnSpan="2" >
+
+                        <DataGrid.ColumnHeaderStyle>
+                            <Style TargetType="{x:Type DataGridColumnHeader}">
+                                <Setter Property="FontSize"
+                                    Value="12" />
+                                <Setter Property="ContentTemplate">
+                                    <Setter.Value>
+                                        <DataTemplate>
+                                            <TextBlock TextWrapping="Wrap" Text="{Binding}"></TextBlock>
+                                        </DataTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+
+                        </DataGrid.ColumnHeaderStyle>
+
+
+                        <DataGrid.Columns>
+                            <DataGridTextColumn   Header="Šifra stavke šanka" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=ItemCode}"/>
+                            <DataGridTextColumn   Header="Naziv stavke šanka" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=ItemName}"/>
+                            <DataGridTextColumn   Header="Grupa stavke šanka" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=ItemGroup}"/>
+                            <DataGridTextColumn   Header="Količina stavke u šanku (kg/l) " Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=ItemRealAmount, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                            <DataGridTextColumn   Header="Vrednost stavke šanka (din)" Width="*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=ItemPrice, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <Grid Name="gridControls" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+
+                        <Button Name="btnCreateStateOfStorehouseExcel"
+                                Content="Kreiraj stanje šanka"
+                                Click="btnCreateStateOfStorehouseExcel_Click"
+                                HorizontalAlignment="Stretch"
+                                VerticalAlignment="Center"
+                                Grid.Row="0"
+                                Grid.Column="4"/>
+
+
+
+                        
+                        <TextBox Name="tfCorrectionDelReasonStorehouse"
+                                 Text="Unesite razlog korekcije/uklanjanja"
+                                 TextChanged="tfCorrectionDelReasonStorehouse_TextChanged"
+                                 MouseEnter="tfCorrectionDelReasonStorehouse_MouseEnter"
+                                 MouseLeave="tfCorrectionDelReasonStorehouse_MouseLeave"
+                                 Foreground="OrangeRed"
+                                 VerticalAlignment="Center"
+                                 HorizontalAlignment="Stretch"
+                                 Grid.Row="2"
+                                 Grid.Column="0"
+                                 Grid.ColumnSpan="2"/>
+
+                        <Button Name="btnStateOfStorehouseCorrection"
+                                Click="btnStateOfStorehouseCorrection_Click"
+                                Content="Uradi korekciju izabrane stavke"
+                                HorizontalAlignment="Stretch"
+                                VerticalAlignment="Center"
+                                Grid.Row="1"
+                                Grid.Column="4"/>
+                        
+                        <Button Name="btnStateOfStorehouseDelete"
+                                Click="btnStateOfStorehouseDelete_Click"
+                                Content="Ukloni izabranu stavku" VerticalAlignment="Center"
+                                Grid.Row="2"
+                                Grid.Column="4" />
+                        
+                        <TextBox Name="tf1"
+                                   Background="Bisque"
+                                   BorderBrush="Black"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Center"
+                                   Grid.Row="0"
+                                   Grid.Column="0"/>
+                        <TextBox Name="tf2"
+                                  Background="Bisque"
+                                   BorderBrush="Black"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Center"
+                                   Grid.Row="0"
+                                   Grid.Column="1"/>
+                        <TextBox Name="tf3"
+                                  Background="Bisque"
+                                   BorderBrush="Black"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Center"
+                                   Grid.Row="0"
+                                   Grid.Column="2"/>
+                        <TextBox Name="tf4"
+                                 TextChanged="tf4_TextChanged"
+                                  Background="Bisque"
+                                   BorderBrush="Black"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Center"
+                                   Grid.Row="1"
+                                   Grid.Column="0"/>
+                        <TextBox Name="tf5"
+                                  Background="Bisque"
+                                   BorderBrush="Black"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Center"
+                                   Grid.Row="1"
+                                   Grid.Column="1"/>
+
+                        <TextBlock 
+                                 
+                                   Text=" Datum unosa korekcije/uklanjanja :"
+                                   HorizontalAlignment="Left"
+                                   VerticalAlignment="Center"
+                                   Grid.Row="1"
+                                   Grid.Column="2"/>
+
+                        <DatePicker Name="datepickerCorrDelStore"
+                                   FontSize="15"
+                                    HorizontalAlignment="Stretch"
+                                    VerticalAlignment="Center"
+                                    SelectedDateChanged="datepickerCorrDelStore_SelectedDateChanged"
+                                    Grid.Row="2"
+                                    Grid.Column="2" >
+                            <DatePicker.Resources>
+                                <Style TargetType="DatePickerTextBox">
+                                    <Setter Property="IsReadOnly" Value="True"/>
+                                </Style>
+                            </DatePicker.Resources>
+                        </DatePicker>
+
+
+                    </Grid>
+                    
+                </Grid>
+            </TabItem>
+
+
+
+
+            <TabItem Name="tabIDailyOverviewOfStateStorehouse" Header="Pregled stanja šanka po danima">
+                <Grid Name="gridTab5" Background="{StaticResource Gradient4}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                    </Grid.RowDefinitions>
+
+
+
+                    <Grid Name="gridLoadReport" Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                        </Grid.ColumnDefinitions>
+
+
+                        <TextBlock 
+                                   Text="Početni datum : "
+                                   Width="Auto"
+                                   HorizontalAlignment="Right"
+                                   VerticalAlignment="Center"
+                                   FontWeight="ExtraBlack"
+                                   Grid.Column="1"/>
+
+
+                        <DatePicker Name="datepickerStartTab5"
+                                   FontSize="15"
+                                   SelectedDateChanged="datepickerStartTab5_SelectedDateChanged"
+                                    Grid.Column="2" >
+                            <DatePicker.Resources>
+                                <Style TargetType="DatePickerTextBox">
+                                    <Setter Property="IsReadOnly" Value="True"/>
+                                </Style>
+                            </DatePicker.Resources>
+                        </DatePicker>
+
+
+
+
+                        <TextBlock
+                                   Text="Krajnji datum : "
+                                   Width="Auto"
+                                   HorizontalAlignment="Right"
+                                   VerticalAlignment="Center"
+                                   FontWeight="ExtraBlack"
+                                   Grid.Column="3"/>
+
+
+                        <DatePicker Name="datepickerEndTab5"
+                                   FontSize="15"
+                                  SelectedDateChanged="datepickerEndTab5_SelectedDateChanged"
+                                    Grid.Column="4" >
+                            <DatePicker.Resources>
+                                <Style TargetType="DatePickerTextBox">
+                                    <Setter Property="IsReadOnly" Value="True"/>
+                                </Style>
+                            </DatePicker.Resources>
+                        </DatePicker>
+
+                        <Button    Name="btnloadReportStateStore"
+                                   Content="Ucitaj izveštaj"
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Stretch"
+                                   Click="btnloadReportStateStore_Click"
+                                   Grid.Column="6"/>
+                    </Grid>
+
+
+                    <Grid Name="gridFilterTab5" Grid.Row="4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="290"/>
+                            <ColumnDefinition Width="280"/>
+                            <ColumnDefinition Width="10" MaxWidth="10"/>
+                            <ColumnDefinition Width="2*"/>
+
+                            <ColumnDefinition Width="0.1*"/>
+                            <ColumnDefinition MaxWidth="30"/>
+                            <ColumnDefinition Width="10" MaxWidth="10"/>
+                            <ColumnDefinition MaxWidth="30"/>
+                            <ColumnDefinition Width="20" MaxWidth="20"/>
+                        </Grid.ColumnDefinitions>
+                        <ToolBar Name="leftToolBarTab5" Grid.Column="1" Grid.ColumnSpan="8" Height="36" HorizontalAlignment="Stretch"   VerticalAlignment="Stretch" Width="Auto" Background="DarkGray"/>
+
+                        <TextBlock Text="   Izaberite kolonu koju želite filtrirati : "
+                                       HorizontalAlignment="Left"
+                                       VerticalAlignment="Center"
+                                       Grid.Column="1"/>
+
+                        <ComboBox Grid.Column="2" HorizontalAlignment="Stretch"  Name="cmbFilterColumnTab5" VerticalAlignment="Center" Width="Auto" Cursor="Hand">
+
+                            <ComboBoxItem>Izaberite kolonu za filtriranje</ComboBoxItem>
+                            <ComboBoxItem>Šifra stavke šanka</ComboBoxItem>
+                            <ComboBoxItem>Naziv stavke šanka</ComboBoxItem>
+                            <ComboBoxItem>Grupa stavke šanka</ComboBoxItem>
+                        </ComboBox>
+
+
+                        <TextBox Name="tfFilterTab5"
+                                TextChanged="tfFilterTab5_TextChanged"
+                                MouseEnter="tfFilterTab5_MouseEnter"
+                                MouseLeave="tfFilterTab5_MouseLeave"
+                                VerticalAlignment="Center"
+                                HorizontalAlignment="Stretch"
+                                Grid.Column="4"/>
+
+
+                    </Grid>
+
+                    <Grid Name="gridFilterStatusTab5" Grid.Column="0" Grid.Row="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Name="tblFilterStatusTab5" 
+                                   Background="{StaticResource Gradient4}"
+                                   Grid.Column="1"
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Stretch"/>
+
+                    </Grid>
+
+
+                    <Grid Name="gridDataGrud"  Grid.Row="6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="15"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="15"/>
+                        </Grid.ColumnDefinitions>
+
+                        <DataGrid  
+                                   ItemsSource="{Binding sRecordState}" 
+                                   HorizontalAlignment="Stretch"  
+                                   Name="dataGridReadStateStorehouse" 
+                                   VerticalAlignment="Stretch" 
+                                   Width="Auto" 
+                                  
+                                   AutoGenerateColumns="False" 
+                                   CanUserReorderColumns="False" 
+                                   CanUserAddRows="False"  
+                                   RowBackground="Snow" 
+                                   AlternatingRowBackground="{StaticResource Gradient3 }" 
+                                   VerticalContentAlignment="Stretch" 
+                                   HorizontalContentAlignment="Stretch"
+                                   Grid.Column="1">
+
+                            <DataGrid.ColumnHeaderStyle>
+                                <Style TargetType="{x:Type DataGridColumnHeader}">
+                                    <Setter Property="FontSize"
+                                    Value="12" />
+                                    <Setter Property="ContentTemplate">
+                                        <Setter.Value>
+                                            <DataTemplate>
+                                                <TextBlock TextWrapping="Wrap" Text="{Binding}"></TextBlock>
+                                            </DataTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+
+                            </DataGrid.ColumnHeaderStyle>
+
+                            <DataGrid.Columns>
+
+                                <DataGridTextColumn Header="Šifra stavke šanka" Width="*" IsReadOnly="True" Binding="{Binding StoreItemCode}"/>
+                                <DataGridTextColumn Header="Naziv stavke šanka" Width="*" IsReadOnly="True" Binding="{Binding StoreItemName}"/>
+                                <DataGridTextColumn Header="Grupa stavke šanka" Width="*" IsReadOnly="True" Binding="{Binding StoreItemGroup}"/>
+                                <DataGridTextColumn Header="Količina stavke u šanku (kg/l) " Width="*" IsReadOnly="True" Binding="{Binding RealAmount}"/>
+
+                                <DataGridTextColumn Header="Datum stanja šanka (na kraju dana)" Width="*" IsReadOnly="True" Binding="{Binding StateOfEndDateTime}"/>
+
+                            </DataGrid.Columns>
+
+                        </DataGrid>
+                    </Grid>
+
+
+
+                </Grid>
+
+
+
+            </TabItem>
+
+        </TabControl>
+
+    </Grid>
+</UserControl>

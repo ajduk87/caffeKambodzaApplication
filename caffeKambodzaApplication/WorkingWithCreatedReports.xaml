@@ -1,0 +1,777 @@
+﻿<UserControl x:Class="caffeKambodzaApplication.WorkingWithCreatedReports"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="1400">
+    
+    
+    <UserControl.Resources>
+
+
+        <Color x:Key="Color1">Black</Color>
+        <Color x:Key="Color2">White</Color>
+        <Color x:Key="Color3">Gray</Color>
+        <Color x:Key="Color4">LightGray</Color>
+        <Color x:Key="Color5">Green</Color>
+        <Color x:Key="Color6">LightGreen</Color>
+
+        <LinearGradientBrush x:Key="Gradient3" StartPoint="0,0" EndPoint="1,0">
+            <GradientStop Color="{DynamicResource Color4}" Offset="0.1"/>
+            <GradientStop Color="{DynamicResource Color2}" Offset="0.2"/>
+            <GradientStop Color="{DynamicResource Color4}" Offset="0.3"/>
+            <GradientStop Color="{DynamicResource Color2}" Offset="0.4"/>
+            <GradientStop Color="{DynamicResource Color4}" Offset="0.5"/>
+            <GradientStop Color="{DynamicResource Color2}" Offset="0.6"/>
+            <GradientStop Color="{DynamicResource Color4}" Offset="0.7"/>
+            <GradientStop Color="{DynamicResource Color2}" Offset="0.8"/>
+            <GradientStop Color="{DynamicResource Color4}" Offset="0.9"/>
+            <GradientStop Color="{DynamicResource Color2}" Offset="1"/>
+        </LinearGradientBrush>
+
+        <LinearGradientBrush x:Key="Gradient4" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="Gray" Offset="0.0"/>
+            <GradientStop Color="White" Offset="0.1"/>
+            <GradientStop Color="LightGray" Offset="0.2"/>
+            <GradientStop Color="Gray" Offset="0.3"/>
+            <GradientStop Color="White" Offset="0.4"/>
+            <GradientStop Color="LightGray" Offset="0.5"/>
+            <GradientStop Color="Gray" Offset="0.6"/>
+            <GradientStop Color="White" Offset="0.7"/>
+            <GradientStop Color="LightGray" Offset="0.8"/>
+            <GradientStop Color="Gray" Offset="0.9"/>
+            <GradientStop Color="White" Offset="1"/>
+        </LinearGradientBrush>
+
+
+    </UserControl.Resources>
+
+    <Grid>
+
+        <TabControl 
+            Name="tabcontrol"
+		    Height="Auto"
+		    Width="Auto"
+          
+		    VerticalAlignment="Stretch"
+            HorizontalAlignment="Stretch">
+
+            <TabItem Name="tabIStateOfStorehouse" Header="Učitavanje kreiranih izveštaja">
+                <Grid Name="gridHistoryTab1" Background="{StaticResource Gradient4}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                    </Grid.RowDefinitions>
+
+                    
+                    
+                    <Grid Name="gridLoadReport" Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                        </Grid.ColumnDefinitions>
+
+
+                        <TextBlock 
+                                   Text="Početni datum : "
+                                   Width="Auto"
+                                   HorizontalAlignment="Right"
+                                   VerticalAlignment="Center"
+                                   FontWeight="ExtraBlack"
+                                   Grid.Column="1"/>
+
+
+                        <DatePicker Name="datepickerStartTab1"
+                                   FontSize="15"
+                                   SelectedDateChanged="datepickerStartTab1_SelectedDateChanged"
+                                    Grid.Column="2" >
+                            <DatePicker.Resources>
+                                <Style TargetType="DatePickerTextBox">
+                                    <Setter Property="IsReadOnly" Value="True"/>
+                                </Style>
+                            </DatePicker.Resources>
+                        </DatePicker>
+
+
+
+
+                        <TextBlock
+                                   Text="Krajnji datum : "
+                                   Width="Auto"
+                                   HorizontalAlignment="Right"
+                                   VerticalAlignment="Center"
+                                   FontWeight="ExtraBlack"
+                                   Grid.Column="3"/>
+
+
+                        <DatePicker Name="datepickerEndTab1"
+                                   FontSize="15"
+                                   SelectedDateChanged="datepickerEndTab1_SelectedDateChanged"
+                                    Grid.Column="4" >
+                            <DatePicker.Resources>
+                                <Style TargetType="DatePickerTextBox">
+                                    <Setter Property="IsReadOnly" Value="True"/>
+                                </Style>
+                            </DatePicker.Resources>
+                        </DatePicker>
+
+                        <Button    Name="btnloadReport"
+                                   Content="Učitaj izveštaj"
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Stretch"
+                                   Click="btnloadReport_Click"
+                                   Grid.Column="6"/>
+                    </Grid>
+                    
+                    <Grid Name="gridDataGrud"  Grid.Row="4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="15"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="15"/>
+                        </Grid.ColumnDefinitions>
+
+                        <DataGrid  
+                                   ItemsSource="{Binding _itemsLoad}" 
+                                   HorizontalAlignment="Stretch"  
+                                   Name="dataGridRead" 
+                                   VerticalAlignment="Stretch" 
+                                   Width="Auto" 
+                                   SelectedCellsChanged="dataGridRead_SelectedCellsChanged"
+                                   AutoGenerateColumns="False" 
+                                   CanUserReorderColumns="False" 
+                                   CanUserAddRows="False"  
+                                   RowBackground="Snow" 
+                                   AlternatingRowBackground="{StaticResource Gradient3 }" 
+                                   VerticalContentAlignment="Stretch" 
+                                   HorizontalContentAlignment="Stretch"
+                                   Grid.Column="1">
+
+
+                            <DataGrid.ColumnHeaderStyle>
+                                <Style TargetType="{x:Type DataGridColumnHeader}">
+                                    <Setter Property="ContentTemplate">
+                                        <Setter.Value>
+                                            <DataTemplate>
+                                                <TextBlock TextWrapping="Wrap" Text="{Binding}"></TextBlock>
+                                            </DataTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+
+                            </DataGrid.ColumnHeaderStyle>
+
+                            <DataGrid.Columns>
+
+                                <DataGridTextColumn Header="Šifra proizvoda" Width="*" IsReadOnly="True" Binding="{Binding CodeProduct}"/>
+                                <DataGridTextColumn Header="Vrsta proizvoda" Width="*" IsReadOnly="True" Binding="{Binding KindOfProduct}"/>
+                                <DataGridTextColumn Header="Jedinična cena" Width="*" IsReadOnly="True" Binding="{Binding Price}"/>
+                                <DataGridTextColumn Header="Količina" Width="*" IsReadOnly="True" Binding="{Binding Amount}"/>
+                                <DataGridTextColumn Header="Vrednost stavke" Width="*" IsReadOnly="True" Binding="{Binding CostItem}"/>
+                                <DataGridTextColumn Header="Datum kreiranja" Width="*" IsReadOnly="True" Binding="{Binding Date}"/>
+                            </DataGrid.Columns>
+
+                        </DataGrid>
+                    </Grid>
+
+                  
+                    <Grid Name="gridFirstRowTfs" Grid.Row="6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBox Name="tf1"
+                                 IsReadOnly="true"
+                                   BorderBrush="Black"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Center"
+                                   Grid.Column="1"/>
+                        
+                        <TextBox Name="tf2"
+                                 IsReadOnly="true"
+                                   BorderBrush="Black"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Center"
+                                   Grid.Column="3"/>
+
+                        <TextBox Name="tf3"
+                                 IsReadOnly="true"
+                                   BorderBrush="Black"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Center"
+                                   Grid.Column="5"/>
+                    </Grid>
+
+                    <Grid Name="gridSecondRowTfs" Grid.Row="7">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBox Name="tf4"
+                                 TextChanged="tf4_TextChanged"
+                                   BorderBrush="Black"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Center"
+                                   Grid.Column="1"/>
+
+                        <TextBox Name="tf5"
+                                 IsReadOnly="true"
+                                   BorderBrush="Black"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Center"
+                                   Grid.Column="3"/>
+
+                        <TextBox Name="tf6"
+                                 IsReadOnly="true"
+                                   BorderBrush="Black"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Center"
+                                   Grid.Column="5"/>
+                    </Grid>
+
+                    <Grid Name="gridDeletionRowTfs" Grid.Row="9">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                        </Grid.ColumnDefinitions>
+
+
+                        <TextBox Name="tfDeletionOutput"
+                                 TextChanged="tfDeletionOutput_TextChanged"
+                                 MouseEnter="tfDeletionOutput_MouseEnter"
+                                 MouseLeave="tfDeletionOutput_MouseLeave"
+                                 Text="Unesi razlog brisanja stavke"
+                                 Foreground="OrangeRed"
+                                   BorderBrush="Black"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Center"
+                                   Grid.Column="1"
+                                   Grid.ColumnSpan="5"/>
+
+                        <Button    Name="btnDeletion"
+                                   Click="btnDeletion_Click"
+                                   Content="Obriši selektovanu stavku"
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Stretch"
+                                   Grid.Column="7"/>
+
+                    </Grid>
+
+                    <Grid Name="gridCorrectionRowTfs" Grid.Row="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                        </Grid.ColumnDefinitions>
+
+
+                        <TextBox Name="tfCorrectionOutput"
+                                 Text="Unesi razlog korekcije stavke"
+                                 Foreground="OrangeRed"
+                                 TextChanged="tfCorrectionOutput_TextChanged"
+                                 MouseEnter="tfCorrected_MouseEnter"
+                                 MouseLeave="tfCorrected_MouseLeave"
+                                   BorderBrush="Black"
+                                   HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Center"
+                                   Grid.Column="1"
+                                   Grid.ColumnSpan="5"/>
+
+                        <Button    Name="btnCorrection"
+                                   Click="btnCorrection_Click"
+                                   Content="Uradi korekciju izabrane stavke"
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Stretch"
+                                   Grid.Column="7"/>
+
+                    </Grid>
+
+
+
+                </Grid>
+
+
+             
+
+
+
+            </TabItem>
+
+            <TabItem Name="tabIStateOfStorehouseByProducts" Header="Učitavanje kreiranih izveštaja po proizvodima">
+                <Grid Name="gridHistoryTab2" Background="{StaticResource Gradient4}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="25"/>
+                    </Grid.RowDefinitions>
+
+
+
+                    <Grid Name="gridLoadReportbyProduct" Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="1.5*"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                        </Grid.ColumnDefinitions>
+
+
+                        <TextBlock 
+                                   Text="Početni datum : "
+                                   Width="Auto"
+                                   HorizontalAlignment="Right"
+                                   VerticalAlignment="Center"
+                                   FontWeight="ExtraBlack"
+                                   Grid.Column="1"/>
+
+
+                        <DatePicker Name="datepickerStartTab2"
+                                   FontSize="15"
+                                    SelectedDateChanged="datepickerStartTab2_SelectedDateChanged"
+                                   VerticalAlignment="Center"
+                                    Grid.Column="2" >
+                            <DatePicker.Resources>
+                                <Style TargetType="DatePickerTextBox">
+                                    <Setter Property="IsReadOnly" Value="True"/>
+                                </Style>
+                            </DatePicker.Resources>
+                        </DatePicker>
+
+
+
+
+                        <TextBlock
+                                   Text="Krajnji datum : "
+                                   Width="Auto"
+                                   HorizontalAlignment="Right"
+                                   VerticalAlignment="Center"
+                                   FontWeight="ExtraBlack"
+                                   Grid.Column="3"/>
+
+
+                        <DatePicker Name="datepickerEndTab2"
+                                   FontSize="15"
+                                    SelectedDateChanged="datepickerEndTab2_SelectedDateChanged"
+                                   VerticalAlignment="Center"
+                                    Grid.Column="4" >
+                            <DatePicker.Resources>
+                                <Style TargetType="DatePickerTextBox">
+                                    <Setter Property="IsReadOnly" Value="True"/>
+                                </Style>
+                            </DatePicker.Resources>
+                        </DatePicker>
+
+
+                        <TextBlock
+                                   Text="Izaberite proizvod : "
+                                   Width="Auto"
+                                   HorizontalAlignment="Right"
+                                   VerticalAlignment="Center"
+                                   FontWeight="ExtraBlack"
+                                   Grid.Column="5"/>
+                        
+                        
+                        
+                        <ComboBox Name="cmbProductsTab2"
+                                  ItemsSource ="{Binding Path=Products}"
+                                  Cursor="Hand"
+                                  Height="35"
+                                   FontSize="20"
+                                   FontWeight="Bold"
+                                  Grid.Column="6"  />    
+                        
+                        <Button    Name="btnloadReportByProduct"
+                                   Click="btnloadReportByProduct_Click"
+                                   Content="Učitaj izveštaj"
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Stretch"
+                                   Grid.Column="8"/>
+                    </Grid>
+
+                    <Grid Name="gridDataGrudTab2"  Grid.Row="4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="15"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="15"/>
+                        </Grid.ColumnDefinitions>
+
+                        <DataGrid  
+                                   ItemsSource="{Binding __itemsLoad2}" 
+                                   HorizontalAlignment="Stretch"  
+                                   Name="dataGridReadByProduct" 
+                                   VerticalAlignment="Stretch" 
+                                   Width="Auto" 
+                                   AutoGenerateColumns="False" 
+                                   CanUserReorderColumns="False" 
+                                   CanUserAddRows="False"  
+                                   RowBackground="Snow" 
+                                   AlternatingRowBackground="{StaticResource Gradient3 }" 
+                                   VerticalContentAlignment="Stretch" 
+                                   HorizontalContentAlignment="Stretch"
+                                   Grid.Column="1">
+
+
+                            <DataGrid.ColumnHeaderStyle>
+                                <Style TargetType="{x:Type DataGridColumnHeader}">
+                                    <Setter Property="ContentTemplate">
+                                        <Setter.Value>
+                                            <DataTemplate>
+                                                <TextBlock TextWrapping="Wrap" Text="{Binding}"></TextBlock>
+                                            </DataTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+
+                            </DataGrid.ColumnHeaderStyle>
+
+                            <DataGrid.Columns>
+
+                                <DataGridTextColumn Header="Šifra proizvoda" Width="*" IsReadOnly="True" Binding="{Binding CodeProduct}"/>
+                                <DataGridTextColumn Header="Vrsta proizvoda" Width="*" IsReadOnly="True" Binding="{Binding KindOfProduct}"/>
+                                <DataGridTextColumn Header="Jedinična cena" Width="*" IsReadOnly="True" Binding="{Binding Price}"/>
+                                <DataGridTextColumn Header="Količina" Width="*" IsReadOnly="True" Binding="{Binding Amount}"/>
+                                <DataGridTextColumn Header="Vrednost stavke" Width="*" IsReadOnly="True" Binding="{Binding CostItem}"/>
+                                <DataGridTextColumn Header="Datum kreiranja" Width="*" IsReadOnly="True" Binding="{Binding Date}"/>
+                            </DataGrid.Columns>
+
+                        </DataGrid>
+                    </Grid>
+
+                </Grid>
+            </TabItem>
+
+            <TabItem Name="tabIStateOfStorehouseDeletion" Header="Pregled obrisanih stavki prometa">
+                <Grid Name="gridHistoryTab3" Background="{StaticResource Gradient4}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="25"/>
+                    </Grid.RowDefinitions>
+
+
+
+                    <Grid Name="gridLoadReportDeletion" Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                        </Grid.ColumnDefinitions>
+
+
+                        <TextBlock 
+                                   Text="Početni datum : "
+                                   Width="Auto"
+                                   HorizontalAlignment="Right"
+                                   VerticalAlignment="Center"
+                                   FontWeight="ExtraBlack"
+                                   Grid.Column="1"/>
+
+
+                        <DatePicker Name="datepickerStartTab3"
+                                   FontSize="15"
+                                   SelectedDateChanged="datepickerStartTab3_SelectedDateChanged"
+                                   VerticalAlignment="Center"
+                                    Grid.Column="2" >
+                            <DatePicker.Resources>
+                                <Style TargetType="DatePickerTextBox">
+                                    <Setter Property="IsReadOnly" Value="True"/>
+                                </Style>
+                            </DatePicker.Resources>
+                        </DatePicker>
+
+
+
+
+                        <TextBlock
+                                   Text="Krajnji datum : "
+                                   Width="Auto"
+                                   HorizontalAlignment="Right"
+                                   VerticalAlignment="Center"
+                                   FontWeight="ExtraBlack"
+                                   Grid.Column="3"/>
+
+
+                        <DatePicker Name="datepickerEndTab3"
+                                   FontSize="15"
+                                   SelectedDateChanged="datepickerEndTab3_SelectedDateChanged"
+                                   VerticalAlignment="Center"
+                                    Grid.Column="4" >
+                            <DatePicker.Resources>
+                                <Style TargetType="DatePickerTextBox">
+                                    <Setter Property="IsReadOnly" Value="True"/>
+                                </Style>
+                            </DatePicker.Resources>
+                        </DatePicker>
+
+
+
+
+                        <Button    Name="btnloadReportDeletion"
+                                   Click="btnloadReportDeletion_Click"
+                                   Content="Učitaj izveštaj"
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Stretch"
+                                   Grid.Column="6"/>
+                    </Grid>
+
+                    <Grid Name="gridDataGrudTab3"  Grid.Row="4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="15"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="15"/>
+                        </Grid.ColumnDefinitions>
+
+                        <DataGrid  
+                                   ItemsSource="{Binding cvItemsDeleted}" 
+                                   HorizontalAlignment="Stretch"  
+                                   Name="dataGridReadDeletion" 
+                                   VerticalAlignment="Stretch" 
+                                   Width="Auto" 
+                                  
+                                   AutoGenerateColumns="False" 
+                                   CanUserReorderColumns="False" 
+                                   CanUserAddRows="False"  
+                                   RowBackground="Snow" 
+                                   AlternatingRowBackground="{StaticResource Gradient3 }" 
+                                   VerticalContentAlignment="Stretch" 
+                                   HorizontalContentAlignment="Stretch"
+                                   Grid.Column="1">
+
+                            <DataGrid.ColumnHeaderStyle>
+                                <Style TargetType="{x:Type DataGridColumnHeader}">
+                                    <Setter Property="ContentTemplate">
+                                        <Setter.Value>
+                                            <DataTemplate>
+                                                <TextBlock TextWrapping="Wrap" Text="{Binding}"></TextBlock>
+                                            </DataTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+
+                            </DataGrid.ColumnHeaderStyle>
+
+                            <DataGrid.Columns>
+
+                                <DataGridTextColumn Header="Šifra proizvoda" Width="*" IsReadOnly="True" Binding="{Binding CodeProduct}"/>
+                                <DataGridTextColumn Header="Vrsta proizvoda" Width="*" IsReadOnly="True" Binding="{Binding KindOfProduct}"/>
+                                <DataGridTextColumn Header="Jedinična cena" Width="*" IsReadOnly="True" Binding="{Binding Price}"/>
+                                <DataGridTextColumn Header="Količina" Width="*" IsReadOnly="True" Binding="{Binding Amount}"/>
+                                <DataGridTextColumn Header="Vrednost stavke" Width="*" IsReadOnly="True" Binding="{Binding CostItem}"/>
+                                <DataGridTextColumn Header="Datum kreiranja" Width="*" IsReadOnly="True" Binding="{Binding Date}"/>
+                                <DataGridTextColumn Header="Razlog uklanjanja" Width="*" IsReadOnly="True" Binding="{Binding DeleteReason}"/>
+                            </DataGrid.Columns>
+
+                        </DataGrid>
+                    </Grid>
+
+                </Grid>
+            </TabItem>
+
+            <TabItem Name="tabIStateOfStorehouseCorrection" Header="Pregled korigovanih stavki prometa">
+                <Grid  Name="gridHistoryTab4" Background="{StaticResource Gradient4}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="25"/>
+                    </Grid.RowDefinitions>
+
+
+
+                    <Grid Name="gridLoadReportCorrection" Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="20"/>
+                        </Grid.ColumnDefinitions>
+
+
+                        <TextBlock 
+                                   Text="Početni datum : "
+                                   Width="Auto"
+                                   HorizontalAlignment="Right"
+                                   VerticalAlignment="Center"
+                                   FontWeight="ExtraBlack"
+                                   Grid.Column="1"/>
+
+
+                        <DatePicker Name="datepickerStartTab4"
+                                   FontSize="15"
+                                   SelectedDateChanged="datepickerStartTab4_SelectedDateChanged"
+                                   VerticalAlignment="Center"
+                                    Grid.Column="2" >
+                            <DatePicker.Resources>
+                                <Style TargetType="DatePickerTextBox">
+                                    <Setter Property="IsReadOnly" Value="True"/>
+                                </Style>
+                            </DatePicker.Resources>
+                        </DatePicker>
+
+
+
+
+                        <TextBlock
+                                   Text="Krajnji datum : "
+                                   Width="Auto"
+                                   HorizontalAlignment="Right"
+                                   VerticalAlignment="Center"
+                                   FontWeight="ExtraBlack"
+                                   Grid.Column="3"/>
+
+
+                        <DatePicker Name="datepickerEndTab4"
+                                   FontSize="15"
+                                   SelectedDateChanged="datepickerEndTab4_SelectedDateChanged"
+                                   VerticalAlignment="Center"
+                                    Grid.Column="4" >
+                            <DatePicker.Resources>
+                                <Style TargetType="DatePickerTextBox">
+                                    <Setter Property="IsReadOnly" Value="True"/>
+                                </Style>
+                            </DatePicker.Resources>
+                        </DatePicker>
+
+
+
+
+                        <Button    Name="btnloadReportCorrection"
+                                   Click="btnloadReportCorrection_Click"
+                                   Content="Učitaj izveštaj"
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Stretch"
+                                   Grid.Column="6"/>
+                    </Grid>
+
+                    <Grid Name="gridDataGrudTab4"  Grid.Row="4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="15"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="15"/>
+                        </Grid.ColumnDefinitions>
+
+                        <DataGrid  
+                                   ItemsSource="{Binding cvItemsCorrected}" 
+                                   HorizontalAlignment="Stretch"  
+                                   Name="dataGridReadCorrection" 
+                                   VerticalAlignment="Stretch" 
+                                   Width="Auto" 
+                                  
+                                   AutoGenerateColumns="False" 
+                                   CanUserReorderColumns="False" 
+                                   CanUserAddRows="False"  
+                                   RowBackground="Snow" 
+                                   AlternatingRowBackground="{StaticResource Gradient3 }" 
+                                   VerticalContentAlignment="Stretch" 
+                                   HorizontalContentAlignment="Stretch"
+                                   Grid.Column="1">
+
+                            <DataGrid.ColumnHeaderStyle>
+                                <Style TargetType="{x:Type DataGridColumnHeader}">
+                                    <Setter Property="FontSize"
+                                    Value="12" />
+                                    <Setter Property="ContentTemplate">
+                                        <Setter.Value>
+                                            <DataTemplate>
+                                                <TextBlock TextWrapping="Wrap" Text="{Binding}"></TextBlock>
+                                            </DataTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </DataGrid.ColumnHeaderStyle>
+
+                            <DataGrid.Columns>
+
+                                <DataGridTextColumn Header="Šifra proizvoda" Width="*" IsReadOnly="True" Binding="{Binding CodeProduct}"/>
+                                <DataGridTextColumn Header="Vrsta proizvoda" Width="*" IsReadOnly="True" Binding="{Binding KindOfProduct}"/>
+                                <DataGridTextColumn Header="Jedinična cena" Width="*" IsReadOnly="True" Binding="{Binding Price}"/>
+                                <DataGridTextColumn Header="Stara količina" Width="*" IsReadOnly="True" Binding="{Binding OldAmount}"/>
+                                <DataGridTextColumn Header="Nova količina" Width="*" IsReadOnly="True" Binding="{Binding Amount}"/>
+                                <DataGridTextColumn Header="Razlika količina" Width="*" IsReadOnly="True" Binding="{Binding DiffAmount}"/>
+                                <DataGridTextColumn Header="Stara vrednost stavke" Width="*" IsReadOnly="True" Binding="{Binding OldCostItem}"/>
+                                <DataGridTextColumn Header="Nova vrednost stavke" Width="*" IsReadOnly="True" Binding="{Binding CostItem}"/>
+                                <DataGridTextColumn Header="Razlika vrednosti" Width="*" IsReadOnly="True" Binding="{Binding DiffCostItem}"/>
+                                <DataGridTextColumn Header="Datum kreiranja" Width="*" IsReadOnly="True" Binding="{Binding Date}"/>
+                                <DataGridTextColumn Header="Razlog korigovanja" Width="*" IsReadOnly="True" Binding="{Binding CorrectionReason}"/>
+                            </DataGrid.Columns>
+
+                        </DataGrid>
+                    </Grid>
+
+                </Grid>
+            </TabItem>
+
+
+
+
+        </TabControl>
+
+    </Grid>
+</UserControl>

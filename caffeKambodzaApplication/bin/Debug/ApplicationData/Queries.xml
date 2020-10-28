@@ -1,0 +1,212 @@
+<Queries>
+	<Query Text = "INSERT INTO measures(MeasureName,CreatedDateTime,LastDateTimeUpdated,NumberOfUpdates) VALUES">
+		<ID>1</ID>
+	</Query>
+	<Query Text = "SELECT * FROM measures;">
+		<ID>2</ID>
+	</Query>
+	<Query Text = "INSERT INTO products(CodeProduct,KindOfProduct,NameProduct,MeasureProduct,Price,Valuta,CreatedDateTime,LastDateTimeUpdated,NumberOfUpdates,WayDisplayBookBar) VALUES">
+		<ID>3</ID>
+	</Query>
+	<Query Text = "SELECT * FROM products;">
+		<ID>4</ID>
+	</Query>
+	<Query Text = "DELETE FROM products WHERE KindOfProduct = ">
+		<ID>5</ID>
+	</Query>
+	<Query Text = "INSERT INTO storeItems(StoreItemCode,StoreItemName,StoreItemMeasure,StoreItemPrice,Valuta,StoreItemGroup,isUsed,Amount,CreatedDateTime,LastDateTimeUpdated,NumberOfUpdates) VALUES">
+		<ID>6</ID>
+	</Query>
+	<Query Text = "SELECT * FROM storeItems;">
+		<ID>7</ID>
+	</Query>
+	<Query Text = "DELETE FROM storeItems WHERE StoreItemName = ">
+		<ID>8</ID>
+	</Query>
+	<Query Text = "INSERT INTO connectionTableProductsStore(ConnCodeProduct,ConnStoreItemCode,ConnKindOfProduct,ConnStoreItemName,Ratio,GroupStoreItem,isUsed,Price,AmountProduct,AmountStoreItem,CreatedDateTime,LastDateTimeUpdated,NumberOfUpdates) VALUES">
+		<ID>9</ID>
+	</Query>
+	<Query Text = "DELETE FROM connectionTableProductsStore WHERE ">
+		<ID>10</ID>
+	</Query>
+	<Query Text = "SELECT * FROM connectionTableProductsStore ">
+		<ID>11</ID>
+	</Query>
+	<Query Text = "DELETE FROM measures WHERE ">
+		<ID>12</ID>
+	</Query>
+	<Query Text = "SELECT * FROM connectionTableProductsStore; ">
+		<ID>13</ID>
+	</Query>
+	<Query Text="INSERT INTO storehouse(StoreItemCode,RealAmount,RealPrice,Valuta,CreatedDateTime,LastDateTimeUpdated,UserCanControlDateTime,UserLastUpdateDateTime,NumberOfUpdates,Threshold) VALUES">
+		<ID>14</ID>
+	</Query>
+	<Query Text = "SELECT * FROM storehouse WHERE StoreItemCode = ">
+		<ID>15</ID>
+	</Query>
+	<Query Text = "SELECT * FROM storeItems WHERE StoreItemName = ">
+		<ID>16</ID>
+	</Query>
+	<Query Text = "SELECT COUNT(*) FROM storehouse WHERE StoreItemCode =">
+		<ID>17</ID>
+	</Query>
+	<Query Text = "SELECT * FROM storehouse WHERE StoreItemCode =">
+		<ID>18</ID>
+	</Query>
+	<Query Text = "DELETE FROM storehouse WHERE StoreItemCode = ">
+		<ID>19</ID>
+	</Query>
+	<Query Text = "SELECT * FROM storehouse ;">
+		<ID>20</ID>
+	</Query>
+	<Query Text = "SELECT * FROM storeItems WHERE StoreItemCode = ">
+		<ID>21</ID>
+	</Query>
+	<Query Text = "INSERT INTO users(UserName,UserPassword,CreatedDateTime,LastDateTimeUpdated,NumberOfUpdates) VALUES">
+		<ID>22</ID>
+	</Query>
+	<Query Text = "SELECT * FROM users;">
+		<ID>23</ID>
+	</Query>
+	<Query Text = "SELECT * FROM numofitemsEVER;">
+		<ID>24</ID>
+	</Query>
+	<Query Text = "INSERT INTO HistoryItemsOutput(NumberOfItem,Product,PriceofProduct,NumberOfSoldItem,WholeItemCost,DateEnteredInApplication,Status,Shift,StoreItemUsedCode,StoreItemUsedName,PiecesUsedOfItem,StoreItemGroup,AmountOfStoreItemUsed,NumberOfUpdates,RecipeID,DateReportCreated) VALUES">
+		<ID>25</ID>
+	</Query>
+	<Query Text = "SELECT * FROM HistoryItemsOutput WHERE NumberOfItem = ">
+		<ID>26</ID>
+	</Query>
+	<Query Text = "INSERT INTO allItemsSoldEver(NumberOfItemCreated,CodeProduct,Product,PriceofProduct,NumberOfSoldItemPieces,WholeItemCost,Shift,DateCreatedReport,DateEnteredinApplication) VALUES">
+		<ID>27</ID>
+	</Query>
+	<Query Text = "DELETE FROM allItemsSoldEver WHERE NumberOfItemCreated = ">
+		<ID>28</ID>
+	</Query>
+	<Query Text = "SELECT * FROM HistoryItemsOutput WHERE NumberOfItem = ">
+		<ID>29</ID>
+	</Query>
+	<Query Text = "INSERT INTO allItemsDeletedEver(NumberOfItemCreated,CodeProduct,Product,PriceofProduct,NumberOfSoldItemPieces,WholeItemCost,Shift,DateCreatedReport,DateEnteredinApplication,DeletionReason) VALUES">
+		<ID>30</ID>
+	</Query>
+	<Query Text = "SELECT * FROM allItemsSoldEver WHERE DateCreatedReport BETWEEN @StartDate AND @EndDate;">
+		<ID>31</ID>
+	</Query>
+	<Query Text = "INSERT INTO allItemsCorrectedEver(NumberOfItemCreated,CodeProduct,Product,PriceofProduct,OLDNumberOfSoldItemPieces,NEWNumberOfSoldItemPieces,Difference,OLDWholeItemCost,NEWWholeItemCost,DifferenceCostItem,Shift,DateCreatedReport,DateEnteredinApplication,CorrectionReason) VALUES">
+		<ID>32</ID>
+	</Query>
+	<Query Text = "INSERT INTO EverEnterInStorehouse(StoreItemCode,StoreItemName,RealAmount,RealPrice,Valuta,CreatedDateTimeInApp,LastDateTimeUpdatedInApp,UserCanControlDateTime,UserLastUpdateDateTime,NumberOfUpdates,Threshold) VALUES (@StoreItemCode,@StoreItemName,@RealAmount,@RealPrice,@Valuta,@CreatedDateTimeInApp,@LastDateTimeUpdatedInApp,@UserCanControlDateTime,@UserLastUpdateDateTime,@NumberOfUpdates,@Threshold);">
+		<ID>33</ID>
+	</Query>
+	<Query Text = "SELECT * FROM EverEnterInStorehouse WHERE StoreItemCode = @StoreItemCode AND NumberOfUpdates = '0';">
+		<ID>34</ID>
+	</Query>
+	<Query Text = "INSERT INTO EverDeletedFromStorehouse(StoreItemCode,StoreItemName,RealAmount,RealPrice,Valuta,CreatedDateTimeInApp,LastDateTimeUpdatedInApp,UserCanControlDateTime,UserLastUpdateDateTime,NumberOfUpdates,Threshold,DeletionUserDateTime,DeletionReason) VALUES (@StoreItemCode,@StoreItemName,@RealAmount,@RealPrice,@Valuta,@CreatedDateTimeInApp,@LastDateTimeUpdatedInApp,@UserCanControlDateTime,@UserLastUpdateDateTime,@NumberOfUpdates,@Threshold,@DeletionUserDateTime,@DeletionReason);">
+		<ID>35</ID>
+	</Query>
+	<Query Text = "INSERT INTO EverCorrectedInStorehouse(StoreItemCode,StoreItemName,OLDRealAmount,NEWRealAmount,DifferenceRealAmount,OLDRealPrice,NEWRealPrice,DifferenceRealPrice,Valuta,CorrectionDateTimeInApp,CorrectionUserDateTime,CorrectionReason) VALUES (@StoreItemCode,@StoreItemName,@OLDRealAmount,@NEWRealAmount,@DifferenceRealAmount,@OLDRealPrice,@NEWRealPrice,@DifferenceRealPrice,@Valuta,@CorrectionDateTimeInApp,@CorrectionUserDateTime,@CorrectionReason);">
+		<ID>36</ID>
+	</Query>
+	<Query Text = "SELECT * FROM allItemsSoldEver WHERE  CodeProduct = @CodeProduct AND  DateCreatedReport BETWEEN @StartDate AND @EndDate;">
+		<ID>37</ID>
+	</Query>
+	<Query Text = "SELECT * FROM allItemsDeletedEver WHERE DateCreatedReport BETWEEN @StartDate AND @EndDate;">
+		<ID>38</ID>
+	</Query>
+	<Query Text = "SELECT * FROM allItemsCorrectedEver WHERE DateCreatedReport BETWEEN @StartDate AND @EndDate;">
+		<ID>39</ID>
+	</Query>
+	<Query Text = "SELECT * FROM EverEnterInStorehouse WHERE UserCanControlDateTime BETWEEN @StartDate AND @EndDate;">
+		<ID>40</ID>
+	</Query>
+	<Query Text = "SELECT * FROM EverDeletedFromStorehouse WHERE DeletionUserDateTime BETWEEN @StartDate AND @EndDate;">
+		<ID>41</ID>
+	</Query>
+	<Query Text = "SELECT * FROM EverCorrectedInStorehouse WHERE CorrectionUserDateTime BETWEEN @StartDate AND @EndDate;">
+		<ID>42</ID>
+	</Query>
+	<Query Text = "INSERT INTO HistoryChangeRecipes(ProductCode,StoreItemCode,KindOfProduct,StoreItemName,StoreItemGroup,Type,OLDProductAmount,NEWProductAmount,OLDStoreItemAmount,NEWStoreItemAmount,DateChangeEntered) VALUES (@ProductCode,@StoreItemCode,@KindOfProduct,@StoreItemName,@StoreItemGroup,@Type,@OLDProductAmount,@NEWProductAmount,@OLDStoreItemAmount,@NEWStoreItemAmount,@DateChangeEntered);">
+		<ID>43</ID>
+	</Query>
+	<Query Text = "SELECT * FROM HistoryChangeRecipes WHERE DateChangeEntered BETWEEN @StartDate AND @EndDate;">
+		<ID>44</ID>
+	</Query>
+	<Query Text = "INSERT INTO HistoryChangePrices(Code,Name,Type,OLDPrice,NEWPrice,DateChangeEntered,DateValuated) VALUES (@Code,@Name,@Type,@OLDPrice,@NEWPrice,@DateChangeEntered,@DateValuated);">
+		<ID>45</ID>
+	</Query>
+	<Query Text = "SELECT * FROM HistoryChangePrices WHERE DateValuated BETWEEN @StartDate AND @EndDate;">
+		<ID>46</ID>
+	</Query>
+	<Query Text = "SELECT * FROM logNumberNodes;">
+		<ID>47</ID>
+	</Query>
+		<Query Text = "INSERT INTO LoggerTable(NodeNumber,Status,Node,DateTimeWrite) VALUES (@NodeNumber,@Status,@Node,@DateTimeWrite);">
+		<ID>48</ID>
+	</Query>
+	<Query Text = "SELECT COUNT(*) FROM LoggerTable ;">
+		<ID>49</ID>
+	</Query>
+	<Query Text = "SELECT * FROM loggerArchiveNumber;">
+		<ID>50</ID>
+	</Query>
+	<Query Text = "INSERT INTO storeItemMeasure(MeasureName) VALUES (@MeasureName);">
+		<ID>51</ID>
+	</Query>
+	<Query Text = "SELECT * FROM storeItemMeasure;">
+		<ID>52</ID>
+	</Query>
+	<Query Text = "DELETE FROM storeItemMeasure WHERE MeasureName = @MeasureName;">
+		<ID>53</ID>
+	</Query>
+	<Query Text = "INSERT INTO statesStoreOnEndDay(StoreItemCode,StoreItemName,StoreItemGroup,StoreItemForOnePrice,StoreItemforOneAmount,RealAmount,RealPrice,Valuta,CreatedDateTime,LastDateTimeUpdated,StateOfEndDateTime) VALUES (@StoreItemCode,@StoreItemName,@StoreItemGroup,@StoreItemForOnePrice,@StoreItemforOneAmount,@RealAmount,@RealPrice,@Valuta,@CreatedDateTime,@LastDateTimeUpdated,@StateOfEndDateTime)">
+		<ID>54</ID>
+	</Query>
+	<Query Text = "SELECT * FROM statesStoreOnEndDay WHERE StateOfEndDateTime = @Date;">
+		<ID>55</ID>
+	</Query>
+	<Query Text = "SELECT * FROM statesStoreOnEndDay WHERE StateOfEndDateTime BETWEEN @StartDate AND @EndDate;">
+		<ID>56</ID>
+	</Query>
+	<Query Text = "DELETE FROM statesStoreOnEndDay WHERE StoreItemCode = @StoreItemCode AND StateOfEndDateTime = @StateOfEndDateTime;">
+		<ID>57</ID>
+	</Query>
+	<Query Text = "SELECT * FROM statesStoreOnEndDay WHERE  StoreItemCode = @StoreItemCode AND StateOfEndDateTime = @StateOfEndDateTime;">
+		<ID>58</ID>
+	</Query>
+	<Query Text = "INSERT INTO productsWithOrderNumber(CodeProduct,KindOfProduct,NameProduct,MeasureProduct,Price,Valuta,CreatedDateTime,LastDateTimeUpdated,NumberOfUpdates,WayDisplayBookBar,NumberOrder) VALUES (@CodeProduct,@KindOfProduct,@NameProduct,@MeasureProduct,@Price,@Valuta,@CreatedDateTime,@LastDateTimeUpdated,@NumberOfUpdates,@WayDisplayBookBar,@NumberOrder)">
+		<ID>59</ID>
+	</Query>
+	<Query Text = "SELECT * FROM productsWithOrderNumber;">
+		<ID>60</ID>
+	</Query>
+	<Query Text = "UPDATE productsWithOrderNumber SET NumberOrder = @NumberOrder WHERE CodeProduct = @CodeProduct;">
+		<ID>61</ID>
+	</Query>
+	<Query Text = "DELETE FROM productsWithOrderNumber WHERE CodeProduct = @CodeProduct;">
+		<ID>62</ID>
+	</Query>
+	<Query Text = "DELETE FROM statesStoreOnEndDay WHERE StateOfEndDateTime = @StateOfEndDateTime;">
+		<ID>63</ID>
+	</Query>
+	<Query Text = "DELETE FROM EverEnterInStorehouse WHERE UserCanControlDateTime = @UserCanControlDateTime;">
+		<ID>64</ID>
+	</Query>
+	<Query Text = "DELETE FROM EverDeletedFromStorehouse WHERE UserCanControlDateTime = @UserCanControlDateTime ;">
+		<ID>65</ID>
+	</Query>
+	<Query Text = "DELETE FROM EverCorrectedInStorehouse WHERE CorrectionUserDateTime = @CorrectionUserDateTime ;">
+		<ID>66</ID>
+	</Query>
+	<Query Text = "DELETE FROM allItemsSoldEver WHERE DateCreatedReport = @DateCreatedReport ;">
+		<ID>67</ID>
+	</Query>
+	<Query Text = "DELETE FROM allItemsDeletedEver WHERE DateCreatedReport = @DateCreatedReport;">
+		<ID>68</ID>
+	</Query>
+	<Query Text = "DELETE FROM allItemsCorrectedEver WHERE DateCreatedReport = @DateCreatedReport ;">
+		<ID>69</ID>
+	</Query>
+	<Query Text = "DELETE FROM HistoryItemsOutput WHERE DateReportCreated = @DateReportCreated ;">
+		<ID>70</ID>
+	</Query>
+</Queries>

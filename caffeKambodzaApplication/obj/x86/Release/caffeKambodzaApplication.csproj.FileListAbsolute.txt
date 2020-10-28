@@ -1,0 +1,874 @@
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe.config
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Interop.ADOX.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.ResolveComReference.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ResolveAssemblyReference.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Resources\OptionsButtonStyleDictionary.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.lref
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.g.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.Properties.Resources.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GenerateResource.read.1.tlog
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GenerateResource.write.1.tlog
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version with mailing\version 1.4\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe.config
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Interop.ADOX.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.ResolveComReference.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ResolveAssemblyReference.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Resources\OptionsButtonStyleDictionary.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.lref
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.g.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.Properties.Resources.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GenerateResource.read.1.tlog
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.5\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GenerateResource.write.1.tlog
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe.config
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Interop.ADOX.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.ResolveComReference.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ResolveAssemblyReference.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Resources\OptionsButtonStyleDictionary.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.lref
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.g.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.Properties.Resources.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GenerateResource.read.1.tlog
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GenerateResource.write.1.tlog
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe.config
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Interop.ADOX.dll
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.ResolveComReference.cache
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.exe
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.pdb
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.pdb
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ResolveAssemblyReference.cache
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.baml
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.baml
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Resources\OptionsButtonStyleDictionary.baml
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.baml
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.baml
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.baml
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.baml
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.baml
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.baml
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.baml
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.baml
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.g.cs
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.g.cs
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.g.cs
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.g.cs
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.g.cs
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.g.cs
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.g.cs
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.g.cs
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.g.cs
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.g.cs
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.g.cs
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.g.cs
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.g.cs
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.cache
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.lref
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.baml
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.baml
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.baml
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.g.resources
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.Properties.Resources.resources
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GenerateResource.read.1.tlog
+G:\caffeKambodzaApplication_AllVersion\versions\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GenerateResource.write.1.tlog
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe.config
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Interop.ADOX.dll
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.ResolveComReference.cache
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.exe
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.pdb
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.pdb
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ResolveAssemblyReference.cache
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.baml
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.baml
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Resources\OptionsButtonStyleDictionary.baml
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.baml
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.baml
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.baml
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.baml
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.baml
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.baml
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.baml
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.baml
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.g.cs
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.g.cs
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.g.cs
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.g.cs
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.g.cs
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.g.cs
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.g.cs
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.g.cs
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.g.cs
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.g.cs
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.g.cs
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.g.cs
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.g.cs
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.cache
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.lref
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.baml
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.baml
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.baml
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.g.resources
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.Properties.Resources.resources
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GenerateResource.read.1.tlog
+F:\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.6\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GenerateResource.write.1.tlog
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe.config
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Interop.ADOX.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.ResolveComReference.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ResolveAssemblyReference.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Resources\OptionsButtonStyleDictionary.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.lref
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.g.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.Properties.Resources.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GenerateResource.read.1.tlog
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.7\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GenerateResource.write.1.tlog
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe.config
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Interop.ADOX.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.ResolveComReference.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Resources\OptionsButtonStyleDictionary.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.lref
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.g.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.Properties.Resources.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.8\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.GenerateResource.Cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe.config
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Interop.ADOX.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.ResolveComReference.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Resources\OptionsButtonStyleDictionary.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.lref
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.g.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.Properties.Resources.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.GenerateResource.Cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe.config
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Interop.ADOX.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.ResolveComReference.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Resources\OptionsButtonStyleDictionary.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.lref
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.g.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.Properties.Resources.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 1.9\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.GenerateResource.Cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe.config
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Interop.ADOX.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.ResolveComReference.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Resources\OptionsButtonStyleDictionary.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.lref
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.g.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.Properties.Resources.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.2\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.GenerateResource.Cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe.config
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Dropbox.Api.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.Extensions.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Win32Ex.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Nemiro.OAuth.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Nemiro.OAuth.LoginForms.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Newtonsoft.Json.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.IO.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.Extensions.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.Primitives.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.WebRequest.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Runtime.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Threading.Tasks.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Dropbox.Api.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.Extensions.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Win32Ex.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Nemiro.OAuth.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Nemiro.OAuth.LoginForms.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Newtonsoft.Json.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.IO.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.Extensions.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.Primitives.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.WebRequest.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Runtime.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Threading.Tasks.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ar\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\az\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\be\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\bg\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\cs\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\da\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\de\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\el\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\es\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\et\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\fi\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\fr\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ga\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\he\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\hi\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\hr\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\hu\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\hy\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\is\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\it\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ja\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\kk\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ko\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\lt\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\lv\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\no\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\pl\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\pt\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ro\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ru\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\sk\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\sl\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\sq\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\sr\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\sv\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\tg\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\tr\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\uk\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\uz\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\vi\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\zh\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.App.config
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Interop.ADOX.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.ResolveComReference.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Resources\OptionsButtonStyleDictionary.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.lref
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.g.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.DropboxForm.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.Properties.Resources.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.GenerateResource.Cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\net framework 4.6 versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csprojResolveAssemblyReference.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe.config
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.App.config
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Interop.ADOX.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.ResolveComReference.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Dropbox.Api.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.Extensions.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Win32Ex.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Nemiro.OAuth.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Nemiro.OAuth.LoginForms.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Newtonsoft.Json.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.IO.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.Extensions.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.Primitives.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.WebRequest.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Runtime.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Threading.Tasks.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Dropbox.Api.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.Extensions.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Win32Ex.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Nemiro.OAuth.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Nemiro.OAuth.LoginForms.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Newtonsoft.Json.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.IO.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.Extensions.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.Primitives.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.WebRequest.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Runtime.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Threading.Tasks.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ar\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\az\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\be\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\bg\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\cs\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\da\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\de\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\el\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\es\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\et\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\fi\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\fr\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ga\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\he\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\hi\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\hr\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\hu\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\hy\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\is\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\it\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ja\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\kk\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ko\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\lt\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\lv\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\no\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\pl\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\pt\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ro\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ru\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\sk\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\sl\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\sq\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\sr\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\sv\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\tg\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\tr\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\uk\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\uz\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\vi\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\zh\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csprojResolveAssemblyReference.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Resources\OptionsButtonStyleDictionary.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.lref
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.g.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.DropboxForm.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.Properties.Resources.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.GenerateResource.Cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MailSender.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MailSender.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe.config
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.App.config
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Interop.ADOX.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.ResolveComReference.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.pdb
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Dropbox.Api.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.Extensions.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Win32Ex.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Nemiro.OAuth.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Nemiro.OAuth.LoginForms.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Newtonsoft.Json.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.IO.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.Extensions.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.Primitives.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.WebRequest.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Runtime.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Threading.Tasks.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Dropbox.Api.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.Extensions.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Win32Ex.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Nemiro.OAuth.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Nemiro.OAuth.LoginForms.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Newtonsoft.Json.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.IO.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.Extensions.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.Primitives.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.WebRequest.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Runtime.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Threading.Tasks.xml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ar\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\az\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\be\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\bg\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\cs\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\da\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\de\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\el\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\es\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\et\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\fi\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\fr\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ga\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\he\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\hi\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\hr\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\hu\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\hy\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\is\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\it\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ja\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\kk\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ko\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\lt\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\lv\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\no\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\pl\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\pt\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ro\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ru\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\sk\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\sl\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\sq\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\sr\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\sv\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\tg\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\tr\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\uk\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\uz\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\vi\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\zh\Nemiro.OAuth.LoginForms.resources.dll
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csprojResolveAssemblyReference.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Resources\OptionsButtonStyleDictionary.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MailSender.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.cache
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.lref
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MailSender.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.baml
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.g.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.DropboxForm.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.Properties.Resources.resources
+D:\My Documents\caffeKambodzaApplication_AllVersion\versions\version on Sale's computer\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.GenerateResource.Cache
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe.config
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.App.config
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Interop.ADOX.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.ResolveComReference.cache
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.exe
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.pdb
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.exe
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\caffeKambodzaApplication.pdb
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Dropbox.Api.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.Extensions.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Win32Ex.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Nemiro.OAuth.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Nemiro.OAuth.LoginForms.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Newtonsoft.Json.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.IO.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.Extensions.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.Primitives.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.WebRequest.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Runtime.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Threading.Tasks.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Dropbox.Api.xml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.xml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.Extensions.xml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Microsoft.Win32Ex.xml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Nemiro.OAuth.xml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Nemiro.OAuth.LoginForms.xml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\Newtonsoft.Json.xml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.IO.xml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.xml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.Extensions.xml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.Primitives.xml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Net.Http.WebRequest.xml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Runtime.xml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\System.Threading.Tasks.xml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ar\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\az\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\be\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\bg\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\cs\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\da\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\de\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\el\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\es\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\et\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\fi\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\fr\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ga\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\he\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\hi\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\hr\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\hu\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\hy\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\is\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\it\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ja\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\kk\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ko\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\lt\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\lv\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\no\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\pl\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\pt\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ro\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\ru\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\sk\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\sl\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\sq\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\sr\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\sv\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\tg\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\tr\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\uk\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\uz\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\vi\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\bin\Release\zh\Nemiro.OAuth.LoginForms.resources.dll
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csprojResolveAssemblyReference.cache
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.baml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.baml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Resources\OptionsButtonStyleDictionary.baml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.baml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.baml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.baml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.baml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.baml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.baml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.baml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.baml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.g.cs
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Login.g.cs
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MailSender.g.cs
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.g.cs
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.g.cs
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\ReportOptions.g.cs
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\SelectUpdateConnProdStore.g.cs
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Storehouse.g.cs
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\StorehouseItemsTab2.g.cs
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\Timer.g.cs
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UpdatePassword.g.cs
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\UserRegistration.g.cs
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\WorkingWithCreatedReports.g.cs
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\App.g.cs
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.cache
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication_MarkupCompile.lref
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\History.baml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MailSender.baml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\MainWindow.baml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\OverviewStorehouseWork.baml
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.g.resources
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.DropboxForm.resources
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.Properties.Resources.resources
+F:\_____sale kam\version 2.3\caffeKambodzaApplication\caffeKambodzaApplication\obj\x86\Release\caffeKambodzaApplication.csproj.GenerateResource.Cache

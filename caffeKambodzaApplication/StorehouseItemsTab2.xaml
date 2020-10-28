@@ -1,0 +1,733 @@
+﻿<UserControl x:Class="caffeKambodzaApplication.StorehouseItemsTab2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="1400">
+    
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary 
+                  Source="Resources/OptionsButtonStyleDictionary.xaml">
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    
+    <Grid Name="gridRoot" ShowGridLines="True">
+        <Grid.Resources>
+            <LinearGradientBrush x:Key="Gradient4" StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="Gray" Offset="0.0"/>
+                <GradientStop Color="White" Offset="0.1"/>
+                <GradientStop Color="LightGray" Offset="0.2"/>
+                <GradientStop Color="Gray" Offset="0.3"/>
+                <GradientStop Color="White" Offset="0.4"/>
+                <GradientStop Color="LightGray" Offset="0.5"/>
+                <GradientStop Color="Gray" Offset="0.6"/>
+                <GradientStop Color="White" Offset="0.7"/>
+                <GradientStop Color="LightGray" Offset="0.8"/>
+                <GradientStop Color="Gray" Offset="0.9"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+
+            <Style TargetType="{x:Type TextBlock}">
+                <Setter Property="FontSize"  Value="18"/>
+            </Style>
+            <Style x:Key="HeaderFont" TargetType="{x:Type TextBlock}">
+                <Setter Property="FontSize"  Value="14"/>
+            </Style>
+            <Style TargetType="{x:Type TextBox}">
+                <Setter Property="FontSize"  Value="18"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+            </Style>
+            <Style TargetType="{x:Type RadioButton}">
+                <Setter Property="FontSize"  Value="18"/>
+            </Style>
+            <Style TargetType="{x:Type CheckBox}">
+                <Setter Property="FontSize"  Value="18"/>
+            </Style>
+            <Style TargetType="{x:Type ComboBox}">
+                <Setter Property="FontSize"  Value="18"/>
+            </Style>
+
+        </Grid.Resources>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Name="gridCurrProduct" Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="1.2*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+         
+
+            <Grid Grid.Row="9">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="   " Grid.Column="0"/>
+                <TextBlock Name="tblRemarkAddStoreItem"
+                           FontSize="20"
+                           FontWeight="Bold"
+                           TextWrapping="Wrap"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Left"
+                           Grid.Column="1"/>
+            </Grid>
+
+
+            <TextBlock Name="tblEarlierEnteredProduct" 
+                       Text="   Informacije o izabranom proizvodu kafića"
+                       VerticalAlignment="Center"
+                       FontWeight="Bold"
+                       Grid.Row="1"/>
+            <TextBlock Name="tblEarlierEnteredProduct2" 
+                       Text="   Izabrani proizvod kafića"
+                       VerticalAlignment="Center"
+                       FontWeight="Bold"
+                       Grid.Row="2"/>
+            <Grid Grid.Row="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Name="blanko2" Text="   " Grid.Column="0"/>
+                <ComboBox Name="cmbChooseEarlierProduct"
+                          ItemsSource ="{Binding Path=Products}"
+                          SelectionChanged="cmbChooseEarlierProduct_SelectionChanged"
+                          VerticalAlignment="Center"
+                          HorizontalAlignment="Stretch"
+                          Grid.Column="2"/>
+            </Grid>
+
+            <Grid Name="gridProductCodeDown" Grid.Row="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="170"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Name="tblJustEnteredProductCodeDown" 
+                           Text="   Šifra proizvoda je : "
+                           VerticalAlignment="Center"
+                           Grid.Column="0"/>
+                <TextBlock  Name="tblJustEnteredProductCodeInformationDown"
+                            
+                            Width="Auto"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Left"
+                            Grid.Column="1" />
+            </Grid>
+            <Grid Name="gridKindOfProductDown" Grid.Row="6">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="170"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Name="tblJustEnteredKindOfProductDown" 
+                           Text="   Vrsta proizvoda je : "
+                           VerticalAlignment="Center"
+                           Grid.Column="0"/>
+                <TextBlock  Name="tblJustEnteredKindOfProductInformationDown"
+                            
+                            Width="Auto"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Left"
+                            Grid.Column="1" />
+            </Grid>
+
+            <Grid Name="gridProductPriceDown" Grid.Row="7">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="250"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Name="tblJustEnteredProductPriceDown" 
+                           Text="   Jedinična cena proizvoda je : "
+                           VerticalAlignment="Center"
+                           Grid.Column="0"/>
+                <TextBlock  Name="tblJustEnteredProductPriceInformationDown"
+                            Width="Auto"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Left"
+                            Grid.Column="1" />
+            </Grid>
+
+
+
+            <TextBlock Name="tlbCaption15"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"
+                       Text="   Izabrana grupa stavki šanka"
+                       FontWeight="Bold"
+                       Grid.Row="10"/>
+
+            <Grid Grid.Row="11">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock  Text="   " Grid.Column="0"/>
+                <ComboBox Name="cmbChooseStoreItemGroup"
+                          Height="30"
+                           ItemsSource="{Binding StoreItems}"
+                          SelectionChanged="cmbChooseStoreItemGroup_SelectionChanged"
+                          VerticalAlignment="Center"
+                          HorizontalAlignment="Stretch"
+                          Grid.Column="2"/>
+            </Grid>
+            
+            
+            <TextBlock Name="tlbCaption11"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"
+                       Text="   Izabrana stavka šanka"
+                       FontWeight="Bold"
+                       Grid.Row="12"/>
+            <Grid Grid.Row="13">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Name="blanko3" Text="   " Grid.Column="0"/>
+                <ComboBox Name="cmbChooseStoreItem2"
+                           ItemsSource="{Binding StoreItems}"
+                         
+                          Height="30"
+                          VerticalAlignment="Center"
+                          HorizontalAlignment="Stretch"
+                          Grid.Column="2"/>
+            </Grid>
+            <Grid Grid.Row="15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="10" MaxWidth="10"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="   " Grid.Column="0"/>
+                <TextBlock Text="Unesi koliko količinski izabrane stavke ima u proizvodu: "
+                           
+                           Grid.Column="1"/>
+            </Grid>
+
+            <Grid Grid.Row="16">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="20" MaxWidth="20"/>
+                    <ColumnDefinition Width="100" MaxWidth="100"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="   " Grid.Column="0"/>
+                <TextBox Name="tfProductAmount" 
+                         FontSize="16"
+                         Height="25"
+                         FontWeight="Normal"
+                         MouseEnter="tfProductAmount_MouseEnter"
+                         TextChanged="tfProductAmount_TextChanged"
+                           Grid.Column="1"/>
+                
+                <ComboBox Name="cmbMeasureSI"
+                          HorizontalAlignment="Left"
+                          Height="25"
+                          FontSize="15"
+                          Grid.Column="3">
+                    <ComboBoxItem>ml</ComboBoxItem>
+                    <ComboBoxItem>l</ComboBoxItem>
+                    <ComboBoxItem>g</ComboBoxItem>
+                    <ComboBoxItem>kg</ComboBoxItem>
+                </ComboBox>
+            </Grid>
+
+           
+             
+    
+
+          
+
+
+            <Grid Grid.Row="18">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="   " Grid.Column="0"/>
+                <Button Name="btnAddStoreItemDown"
+                        Click="btnAddStoreItemDown_Click"
+                        Content="  dodaj stavku šanka  "
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Left"
+                        Grid.Column="1"/>
+            </Grid>
+
+            <Grid Grid.Row="19">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="   " Grid.Column="0"/>
+                <TextBlock Name="tblRemarkAddStoreItem2"
+                           FontSize="20"
+                           FontWeight="Bold"
+                           TextWrapping="Wrap"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Left"
+                           Grid.Column="1"/>
+            </Grid>
+
+        </Grid>
+        
+        
+        
+        
+        
+        <Grid Name="gridEnterNewStoreItem" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="1.1*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+            <TextBlock Name="tblNewStoreItemCode"
+                        Text="Unesite šifru nove stavke šanka : "
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="18"
+                        FontWeight="Bold"
+                        Grid.Row="1"/>
+            <TextBox Name="tfNewStoreItemCode"
+                     TextChanged="tfNewStoreItemCode_TextChanged"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Center"
+                    FontSize="12"              
+                    Grid.Row="2"/>
+            <TextBlock Name="tblNewStoreItem"
+                        Text="Unesite naziv nove stavke šanka : "
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="18"
+                        FontWeight="Bold"
+                        Grid.Row="3"/>
+
+            
+            <TextBox Name="tfNewStoreItem"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Center"
+                    
+                    MouseEnter="tfNewStoreItem_MouseEnter"  
+                    MouseLeave="tfNewStoreItem_MouseLeave"
+                    TextChanged="tfNewStoreItem_TextChanged"
+                    FontSize="12"
+                    Grid.Row="4"/>
+
+            <TextBlock Name="tblNewStoreItemMeasure"
+                        Text="Unesite jediničnu meru nove stavke šanka : "
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="18"
+                        FontWeight="Bold"
+                        Grid.Row="5"/>
+            
+            <ComboBox  Name="cmbStoreItemMeasure"
+                       Height="30"
+                       FontSize="18"
+                       MouseEnter="cmbStoreItemMeasure_MouseEnter"
+                        Grid.Row="6" />
+
+            <TextBlock Name="tblNewStoreItemGroup"
+                        Text="Unesite grupu kojoj nova stavka šanka pripada : "
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="18"
+                        FontWeight="Bold"
+                        Grid.Row="7"/>
+
+
+           
+                <TextBox Name="tfNewStoreItemGroup"
+                        HorizontalAlignment="Stretch"
+                        VerticalAlignment="Center"
+                        MouseEnter="tfNewStoreItemGroup_MouseEnter"
+                        MouseLeave="tfNewStoreItemGroup_MouseLeave"
+                         TextChanged="tfNewStoreItemGroup_TextChanged"
+                        FontSize="12"
+                        Grid.Row="8"/>
+               
+
+            <TextBlock Name="tblNewStoreItemPrice"
+                        Text="Unesite jediničnu cenu nove stavke šanka : "
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontWeight="Bold"
+                        FontSize="18"
+                        Grid.Row="9"/>
+            
+            <Grid  Grid.Row="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="35"/>
+                </Grid.ColumnDefinitions>
+                <TextBox Name="tfNewStoreItemPrice"
+                        MouseEnter="tfNewStoreItemPrice_MouseEnter" 
+                        MouseLeave="tfNewStoreItemPrice_MouseLeave"
+                        TextChanged="tfNewStoreItemPrice_TextChanged"
+                        HorizontalAlignment="Stretch"
+                        VerticalAlignment="Center"
+                        FontSize="12"
+                   />
+                <TextBlock Name="tblStorecurrency"
+                           Text="din"
+                           VerticalAlignment="Center"
+                           FontWeight="Bold"
+                           Grid.Column="1"/>
+            </Grid>
+
+            <TextBlock Text="Unesi kolika je količina izabrane stavke šanka: "
+                           FontWeight="Bold"
+                           FontSize="18"
+                           Height="25"
+                           Grid.Row="11"/>
+            
+            <Grid Grid.Row="12">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="20" MaxWidth="20"/>
+                    <ColumnDefinition Width="100" MaxWidth="100"/>
+                </Grid.ColumnDefinitions>
+               
+                <TextBox Name="tfStoreAmount" 
+                         FontSize="16"
+                         Height="25"
+                         FontWeight="Normal"
+                         MouseEnter="tfStoreAmount_MouseEnter"
+                         MouseLeave="tfStoreAmount_MouseLeave"
+                         TextChanged="tfStoreAmount_TextChanged"
+                         Grid.Column="0"/>
+
+                <ComboBox Name="cmbMeasureSI2"
+                          HorizontalAlignment="Left"
+                          Height="25"
+                          FontSize="15"
+                          Grid.Column="2">
+                    <ComboBoxItem>ml</ComboBoxItem>
+                    <ComboBoxItem>l</ComboBoxItem>
+                    <ComboBoxItem>g</ComboBoxItem>
+                    <ComboBoxItem>kg</ComboBoxItem>
+                </ComboBox>
+            </Grid>
+
+            <Button Name="btnNewStoreItem"
+                    Content="  Unesi novu stavku šanka  "
+                    Click="btnNewStoreItem_Click"
+                    Height="25"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Left"
+                    Grid.Row="13"/>
+            <Button Name="btnDeletetfMeasure"
+                    Content="   Obriši tesktualna polja       "
+                    Click="btnDeletetfMeasure_Click"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Left"
+                    Height="25"
+                    Grid.Row="15"/>
+
+            <TextBlock Name="tblRemark"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        FontSize="18"
+                        FontWeight="Bold"
+                        TextWrapping="Wrap"
+                        Grid.Row="14"/>
+
+
+            <TextBlock  Name="tblRemoveStoreItemGroup"
+                        Text="Izabrana grupa stavke šanka"
+                        FontSize="18"
+                        FontWeight="Bold"
+                        Grid.Row="16"/>
+
+
+            <ComboBox Name="cmbRemoveStoreItemGroup"
+                           SelectionChanged="cmbRemoveStoreItemGroup_SelectionChanged"
+                           Height="30"
+                      FontSize="18"
+                        Grid.Row="17"
+                      />
+
+            <TextBlock  Name="tblRemoveStoreItem"
+                        Text="Izabrana stavka šanka"
+                        FontSize="18"
+                        FontWeight="Bold"
+                        Grid.Row="18"/>
+            
+
+                <ComboBox Name="cmbRemoveStoreItem"
+                           ItemsSource="{Binding StoreItems}"
+                           Height="35"
+                          FontSize="16"
+                        Grid.Row="19"
+                      />
+                
+                <Button Name="btnRemoveStoreItem"
+                        Content="  Ukloni izabranu stavku šanka  "
+                        Click="btnRemoveStoreItem_Click"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Left"
+                        Height="25"
+                        Grid.Row="20"
+                      />
+
+            <TextBlock  Name="tblStoreItemCode"
+                        Text="Izabrana šifra stavke šanka"
+                        FontSize="18"
+                        FontWeight="Bold"
+                        Grid.Row="22"/>
+            <ComboBox Name="cmbStoreItemCode"
+                           ItemsSource="{Binding StoreItemCodes}"
+                      SelectionChanged="cmbStoreItemCode_SelectionChanged"
+                      VerticalAlignment="Center"
+                      Height="30"
+                      FontSize="18"
+                        Grid.Row="23"
+                      />
+            <Grid Name="gridProductCodePart2" Grid.Row="24">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="210"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Name="tblJustEnteredProductCodePart2" 
+                           Text="Šifra stavke šanka je :"
+                           FontSize="18"
+                           VerticalAlignment="Center"
+                           Grid.Column="0"/>
+                <TextBlock  Name="tblJustEnteredProductCodeInformationPart2"
+                            
+                            Width="Auto"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Left"
+                            Grid.Column="1" />
+            </Grid>
+            <Grid Name="gridProductPricePart2" Grid.Row="25">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="290"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Name="tblJustEnteredProductPricePart2" 
+                           Text="Jedinična cena stavke šanka je :"
+                           FontSize="18"
+                           VerticalAlignment="Center"
+                           Grid.Column="0"/>
+                <TextBlock  Name="tblJustEnteredProductPriceInformationPart2"
+                            
+                            Width="Auto"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Left"
+                            Grid.Column="1" />
+            </Grid>
+
+        </Grid>
+
+        <Grid Name="gridProductsStoreItemConn" Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="0.1*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Name="gridCurrProductStoreItemConn" Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="25"/>
+                </Grid.RowDefinitions>
+                <TextBlock Name="tblcurr"
+                           Text="Stavke šanka za proizvod koji se trenutno unosi"
+                           VerticalAlignment="Bottom"
+                           FontWeight="Bold"
+                           Grid.Row="0"/>
+
+                <DataGrid  Name="dgridCurrProductStoreItemConn"
+                           ItemsSource="{Binding _currStoreItemProducts}"
+                           AutoGenerateColumns="False"
+                           CanUserAddRows="False"
+                           Grid.Row="1">
+
+
+                    <DataGrid.ColumnHeaderStyle>
+                        <Style TargetType="{x:Type DataGridColumnHeader}">
+                            <Setter Property="FontSize"
+                                    Value="12" />
+                            <Setter Property="ContentTemplate">
+                                <Setter.Value>
+                                    <DataTemplate>
+                                        <TextBlock TextWrapping="Wrap" Text="{Binding}"></TextBlock>
+                                    </DataTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+
+                    </DataGrid.ColumnHeaderStyle>
+
+
+
+                    <DataGrid.Columns>
+                        <DataGridTextColumn   Header="Stavke šanka" Width="5*" FontSize="12" IsReadOnly="True" Binding="{Binding Path=KindOfProduct}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+                <Button Name="btnRemoveStoreItemForCurrProduct"
+                        Click="btnRemoveStoreItemForCurrProduct_Click"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Center"
+                        Content="   ukloni selektovanu stavku šanka   "
+                        Grid.Row="2"/>
+                
+                
+            </Grid>
+
+            <Grid Name="gridStoreItemsMeasures" Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="25"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Name="tlbCaption19"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"
+                       FontSize="18"
+                       Text="   Unesite naziv jedinične mere stavke šanka :"
+                       FontWeight="Bold"
+                       Grid.Row="1"/>
+
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="20"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="   " Grid.Column="0"/>
+                    <TextBox Name="tfNewStoreItemMeasure" 
+                             TextChanged="tfNewStoreItemMeasure_TextChanged"
+                             FontSize="16"
+                             Height="25"
+                             FontWeight="Normal"
+                             Grid.Column="1"/>
+
+                 
+                </Grid>
+
+
+                <Grid Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="20"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="   " Grid.Column="0"/>
+                    <Button Name="btnEnterNewStoreItemMeasure"
+                        Click="btnEnterNewStoreItemMeasure_Click"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        Content="   unesi novu jediničnu meru stavke šanka   "
+                        Grid.Column="1"/>
+
+
+                </Grid>
+
+                <TextBlock Name="tlbCaption20"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"
+                       FontSize="18"
+                       Text="   Jedinična mera stavke šanka :"
+                       FontWeight="Bold"
+                       Grid.Row="5"/>
+
+                <Grid Grid.Row="6">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="20"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="   " Grid.Column="0"/>
+                    <ComboBox Name="cmbStoreItemMeasureRemove"
+                              SelectionChanged="cmbStoreItemMeasureRemove_SelectionChanged"
+                        HorizontalAlignment="Stretch"
+                        VerticalAlignment="Center"
+                        Grid.Column="1"/>
+
+                </Grid>
+
+                <Grid Grid.Row="8">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="20"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="   " Grid.Column="0"/>
+                    <Button Name="btnRemoveNewStoreItemMeasure"
+                        Click="btnRemoveNewStoreItemMeasure_Click"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        Content="   ukloni izabranu jediničnu meru stavke šanka   "
+                        Grid.Column="1"/>
+
+
+                </Grid>
+
+
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>
